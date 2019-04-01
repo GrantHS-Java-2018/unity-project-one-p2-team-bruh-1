@@ -2,15 +2,11 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class World1_4 : MonoBehaviour {
+public class World1_4 : PropertyMasterScript {
 
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
+    public World1_4()
+    {
+        price = 60;
+        hotels = 0;
+    }
 }

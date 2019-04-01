@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class World3_4 : MonoBehaviour {
+public class World3_4 : PropertyMasterScript {
 
 	// Use this for initialization
 	void Start () {

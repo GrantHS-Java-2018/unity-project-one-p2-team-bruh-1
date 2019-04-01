@@ -2,15 +2,17 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class World1_1 : MonoBehaviour {
+public class World1_1 : PropertyMasterScript
+{
 
-	// Use this for initialization
-	void Start () {
-		
+	public World1_1()
+	{
+		price = 60;
+		hotels = 0;
 	}
 	
-	// Update is called once per frame
-	void Update () {
-		
+	public override void MakeSound()
+	{
+		Debug.Log("woof");
 	}
 }

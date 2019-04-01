@@ -2,15 +2,19 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PropertyMasterScript : MonoBehaviour {
+public class PropertyMasterScript : MonoBehaviour
+{
 
-	// Use this for initialization
-	void Start () {
-		
+	public int price;
+	public int hotels;
+
+	public virtual void MakeSound()
+	{
+		Debug.Log("No sound detected");
 	}
-	
-	// Update is called once per frame
-	void Update () {
-		
+
+	private void Start()
+	{
+		MakeSound();
 	}
 }
