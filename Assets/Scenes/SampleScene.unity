@@ -125,7 +125,7 @@ GameObject:
   m_Layer: 0
   m_Name: AttackedByAGoomba
   m_TagString: Untagged
-  m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -165,7 +165,7 @@ GameObject:
   m_Layer: 0
   m_Name: World 7_1
   m_TagString: Untagged
-  m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -193,6 +193,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3cdd8acb51a3b74439f7cf96444e4702, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  price: 0
+  hotels: 0
 --- !u!1 &84892414
 GameObject:
   m_ObjectHideFlags: 0
@@ -205,7 +207,7 @@ GameObject:
   m_Layer: 0
   m_Name: World 2_1
   m_TagString: Untagged
-  m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -233,6 +235,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bbb0e77b20307bf4ca3b0c08ee0f0787, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  price: 100
+  hotels: 0
 --- !u!1 &157464266
 GameObject:
   m_ObjectHideFlags: 0
@@ -358,7 +362,7 @@ GameObject:
   m_Layer: 0
   m_Name: World 3_4
   m_TagString: Untagged
-  m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -386,6 +390,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 10da17d621726b347b3f4c003ca8fef2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  price: 0
+  hotels: 0
 --- !u!1 &270535799
 GameObject:
   m_ObjectHideFlags: 0
@@ -398,7 +404,7 @@ GameObject:
   m_Layer: 0
   m_Name: Lift Cloud
   m_TagString: Untagged
-  m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -438,7 +444,7 @@ GameObject:
   m_Layer: 0
   m_Name: World 6_4
   m_TagString: Untagged
-  m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -466,6 +472,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5fcfc4af7c211024b8a36b7824885959, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  price: 0
+  hotels: 0
 --- !u!1 &335446988
 GameObject:
   m_ObjectHideFlags: 0
@@ -478,7 +486,7 @@ GameObject:
   m_Layer: 0
   m_Name: World 3_1
   m_TagString: Untagged
-  m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -506,6 +514,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce8c52f02b3d831449298218f4d019cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  price: 0
+  hotels: 0
 --- !u!1 &387973910
 GameObject:
   m_ObjectHideFlags: 0
@@ -518,7 +528,7 @@ GameObject:
   m_Layer: 0
   m_Name: Warp Pipe
   m_TagString: Untagged
-  m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -558,7 +568,7 @@ GameObject:
   m_Layer: 0
   m_Name: World 2_4
   m_TagString: Untagged
-  m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -586,6 +596,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7562b4830114b6b4fb005f0bfcb5ecac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  price: 120
+  hotels: 0
 --- !u!1 &470405719
 GameObject:
   m_ObjectHideFlags: 0
@@ -598,7 +610,7 @@ GameObject:
   m_Layer: 0
   m_Name: World 1_4
   m_TagString: Untagged
-  m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -626,6 +638,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70b4489c9c42c504d957da4d5fee1474, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  price: 60
+  hotels: 0
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -698,11 +712,149 @@ Transform:
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -10}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.2025453, y: 1.2025453, z: 1.2025453}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &543913606
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 543913607}
+  - component: {fileID: 543913609}
+  - component: {fileID: 543913608}
+  m_Layer: 5
+  m_Name: Player1Icon
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &543913607
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 543913606}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 865980139}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 350, y: 200}
+  m_SizeDelta: {x: 40, y: 40}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &543913608
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 543913606}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 0
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 21300000, guid: 42283a626e0e5dc43bb9fa980a97743a, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+--- !u!222 &543913609
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 543913606}
+  m_CullTransparentMesh: 0
+--- !u!1 &665395964
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 665395965}
+  - component: {fileID: 665395967}
+  - component: {fileID: 665395966}
+  m_Layer: 5
+  m_Name: Player2Icon
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &665395965
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 665395964}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 865980139}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 350, y: -200}
+  m_SizeDelta: {x: 50, y: 50}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &665395966
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 665395964}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 21300000, guid: d345bd20e0624214e8ef859ddd0ed85c, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+--- !u!222 &665395967
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 665395964}
+  m_CullTransparentMesh: 0
 --- !u!1 &714778385
 GameObject:
   m_ObjectHideFlags: 0
@@ -713,6 +865,7 @@ GameObject:
   - component: {fileID: 714778387}
   - component: {fileID: 714778386}
   - component: {fileID: 714778388}
+  - component: {fileID: 714778389}
   m_Layer: 0
   m_Name: Player 1
   m_TagString: Untagged
@@ -790,6 +943,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9246b45536f36af44953a0dee845370c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &714778389
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 714778385}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3dccd887bbc3d7341b2f83996da07d50, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  waypoints: []
+  moveSpeed: 5
+  waypointIndex: 0
+  moveAllowed: 0
 --- !u!1 &775611897
 GameObject:
   m_ObjectHideFlags: 0
@@ -802,7 +970,7 @@ GameObject:
   m_Layer: 0
   m_Name: World 2_2
   m_TagString: Untagged
-  m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -830,6 +998,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4837454da00bfe5479d572d598344709, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  price: 100
+  hotels: 0
 --- !u!1 &857941352
 GameObject:
   m_ObjectHideFlags: 0
@@ -842,7 +1012,7 @@ GameObject:
   m_Layer: 0
   m_Name: World 8_4
   m_TagString: Untagged
-  m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -870,6 +1040,104 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f2baf467779a02d4482bb9e90c07667c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  price: 0
+  hotels: 0
+--- !u!1 &865980135
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 865980139}
+  - component: {fileID: 865980138}
+  - component: {fileID: 865980137}
+  - component: {fileID: 865980136}
+  m_Layer: 5
+  m_Name: Canvas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &865980136
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 865980135}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1301386320, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
+  m_BlockingObjects: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &865980137
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 865980135}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1980459831, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_UiScaleMode: 1
+  m_ReferencePixelsPerUnit: 100
+  m_ScaleFactor: 1
+  m_ReferenceResolution: {x: 800, y: 600}
+  m_ScreenMatchMode: 0
+  m_MatchWidthOrHeight: 0
+  m_PhysicalUnit: 3
+  m_FallbackScreenDPI: 96
+  m_DefaultSpriteDPI: 96
+  m_DynamicPixelsPerUnit: 1
+--- !u!223 &865980138
+Canvas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 865980135}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_RenderMode: 0
+  m_Camera: {fileID: 0}
+  m_PlaneDistance: 100
+  m_PixelPerfect: 0
+  m_ReceivesEvents: 1
+  m_OverrideSorting: 0
+  m_OverridePixelPerfect: 0
+  m_SortingBucketNormalizedSize: 0
+  m_AdditionalShaderChannelsFlag: 0
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_TargetDisplay: 0
+--- !u!224 &865980139
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 865980135}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_Children:
+  - {fileID: 543913607}
+  - {fileID: 665395965}
+  - {fileID: 991056561}
+  m_Father: {fileID: 0}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0, y: 0}
 --- !u!1 &956938228
 GameObject:
   m_ObjectHideFlags: 0
@@ -882,7 +1150,7 @@ GameObject:
   m_Layer: 0
   m_Name: World 7_2
   m_TagString: Untagged
-  m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -910,6 +1178,83 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cfdaf65aaa1b9914c87273e347fd9532, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  price: 0
+  hotels: 0
+--- !u!1 &991056560
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 991056561}
+  - component: {fileID: 991056563}
+  - component: {fileID: 991056562}
+  m_Layer: 5
+  m_Name: Player1MoveText
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &991056561
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 991056560}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 865980139}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 160, y: 30}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &991056562
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 991056560}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 14
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 10
+    m_MaxSize: 40
+    m_Alignment: 0
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: New Text
+--- !u!222 &991056563
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 991056560}
+  m_CullTransparentMesh: 0
 --- !u!1 &1029397953
 GameObject:
   m_ObjectHideFlags: 0
@@ -922,7 +1267,7 @@ GameObject:
   m_Layer: 0
   m_Name: Warp Pipe
   m_TagString: Untagged
-  m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -962,7 +1307,7 @@ GameObject:
   m_Layer: 0
   m_Name: World 5_4
   m_TagString: Untagged
-  m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -990,6 +1335,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 93036a24e43e0d745aae15235474f24f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  price: 0
+  hotels: 0
 --- !u!1 &1066302998
 GameObject:
   m_ObjectHideFlags: 0
@@ -1002,7 +1349,7 @@ GameObject:
   m_Layer: 0
   m_Name: Jail
   m_TagString: Untagged
-  m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -1042,7 +1389,7 @@ GameObject:
   m_Layer: 0
   m_Name: Free Parking
   m_TagString: Untagged
-  m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -1082,7 +1429,7 @@ GameObject:
   m_Layer: 0
   m_Name: Vine
   m_TagString: Untagged
-  m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -1120,6 +1467,7 @@ GameObject:
   - component: {fileID: 1128270488}
   - component: {fileID: 1128270487}
   - component: {fileID: 1128270489}
+  - component: {fileID: 1128270490}
   m_Layer: 0
   m_Name: Player 2
   m_TagString: Untagged
@@ -1197,6 +1545,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ccfe48b5c18d50c419fa0d2c5c53e75a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1128270490
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1128270486}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3dccd887bbc3d7341b2f83996da07d50, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  waypoints: []
+  moveSpeed: 5
+  waypointIndex: 0
+  moveAllowed: 0
 --- !u!1 &1136293350
 GameObject:
   m_ObjectHideFlags: 0
@@ -1209,7 +1572,7 @@ GameObject:
   m_Layer: 0
   m_Name: World 4_3
   m_TagString: Untagged
-  m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -1237,6 +1600,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 580f6000ee396654abdcdf023b7d03e5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  price: 0
+  hotels: 0
 --- !u!1 &1237185297
 GameObject:
   m_ObjectHideFlags: 0
@@ -1249,7 +1614,7 @@ GameObject:
   m_Layer: 0
   m_Name: '? Block'
   m_TagString: Untagged
-  m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -1289,7 +1654,7 @@ GameObject:
   m_Layer: 0
   m_Name: World 8_1
   m_TagString: Untagged
-  m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -1317,6 +1682,70 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4953581bcab2b74595710fbdd1b1566, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  price: 0
+  hotels: 0
+--- !u!1 &1307137418
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1307137421}
+  - component: {fileID: 1307137420}
+  - component: {fileID: 1307137419}
+  m_Layer: 0
+  m_Name: EventSystem
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1307137419
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1307137418}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1077351063, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_HorizontalAxis: Horizontal
+  m_VerticalAxis: Vertical
+  m_SubmitButton: Submit
+  m_CancelButton: Cancel
+  m_InputActionsPerSecond: 10
+  m_RepeatDelay: 0.5
+  m_ForceModuleActive: 0
+--- !u!114 &1307137420
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1307137418}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -619905303, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_FirstSelected: {fileID: 0}
+  m_sendNavigationEvents: 1
+  m_DragThreshold: 10
+--- !u!4 &1307137421
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1307137418}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1382936881
 GameObject:
   m_ObjectHideFlags: 0
@@ -1329,7 +1758,7 @@ GameObject:
   m_Layer: 0
   m_Name: Trampoline
   m_TagString: Untagged
-  m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -1369,7 +1798,7 @@ GameObject:
   m_Layer: 0
   m_Name: World 1_1
   m_TagString: Untagged
-  m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -1397,6 +1826,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6f95c8f359eab74498f9b6de45293a57, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  price: 60
+  hotels: 0
 --- !u!1 &1424580897
 GameObject:
   m_ObjectHideFlags: 0
@@ -1477,7 +1908,7 @@ GameObject:
   m_Layer: 0
   m_Name: World 5_3
   m_TagString: Untagged
-  m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -1505,6 +1936,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4c5273cc8e92764ebe3fc00ec4ee569, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  price: 0
+  hotels: 0
 --- !u!1 &1589579183
 GameObject:
   m_ObjectHideFlags: 0
@@ -1517,7 +1950,7 @@ GameObject:
   m_Layer: 0
   m_Name: World 6_1
   m_TagString: Untagged
-  m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -1545,6 +1978,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f97baa2f92d1eba439ccf57b6964be29, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  price: 0
+  hotels: 0
 --- !u!1 &1608460163
 GameObject:
   m_ObjectHideFlags: 0
@@ -1557,7 +1992,7 @@ GameObject:
   m_Layer: 0
   m_Name: World 3_3
   m_TagString: Untagged
-  m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -1585,6 +2020,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 37f2f474deae20d499dcfe9b10be0e5d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  price: 0
+  hotels: 0
 --- !u!1 &1617997175
 GameObject:
   m_ObjectHideFlags: 0
@@ -1597,7 +2034,7 @@ GameObject:
   m_Layer: 0
   m_Name: World 6_2
   m_TagString: Untagged
-  m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -1625,6 +2062,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dbd7a800326c4ad4b8f84a08c37fc973, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  price: 0
+  hotels: 0
 --- !u!1 &1657268823
 GameObject:
   m_ObjectHideFlags: 0
@@ -1825,7 +2264,7 @@ GameObject:
   m_Layer: 0
   m_Name: Fire Flower
   m_TagString: Untagged
-  m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -1865,7 +2304,7 @@ GameObject:
   m_Layer: 0
   m_Name: Lift
   m_TagString: Untagged
-  m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -1905,7 +2344,7 @@ GameObject:
   m_Layer: 0
   m_Name: AttackedByABulletBill
   m_TagString: Untagged
-  m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -1945,7 +2384,7 @@ GameObject:
   m_Layer: 0
   m_Name: Super Star
   m_TagString: Untagged
-  m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -1985,7 +2424,7 @@ GameObject:
   m_Layer: 0
   m_Name: World 5_1
   m_TagString: Untagged
-  m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -2013,6 +2452,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3c982d8b1c998be4fa3d4de5fd069ce5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  price: 0
+  hotels: 0
 --- !u!1 &1951687818
 GameObject:
   m_ObjectHideFlags: 0
@@ -2025,7 +2466,7 @@ GameObject:
   m_Layer: 0
   m_Name: Go (Start)
   m_TagString: Untagged
-  m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -2065,7 +2506,7 @@ GameObject:
   m_Layer: 0
   m_Name: Warp Pipe
   m_TagString: Untagged
-  m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -2105,7 +2546,7 @@ GameObject:
   m_Layer: 0
   m_Name: GoToJail
   m_TagString: Untagged
-  m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -2145,7 +2586,7 @@ GameObject:
   m_Layer: 0
   m_Name: '? Block'
   m_TagString: Untagged
-  m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -2185,7 +2626,7 @@ GameObject:
   m_Layer: 0
   m_Name: World 4_1
   m_TagString: Untagged
-  m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -2213,6 +2654,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 50bf0cd3a13c30a4f9c19a25c8c0299c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  price: 0
+  hotels: 0
 --- !u!1 &2046593117
 GameObject:
   m_ObjectHideFlags: 0
@@ -2225,7 +2668,7 @@ GameObject:
   m_Layer: 0
   m_Name: World 4_4
   m_TagString: Untagged
-  m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -2253,6 +2696,48 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac3e7f695bcbe8144b578f672b6601bb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  price: 0
+  hotels: 0
+--- !u!1 &2050085292
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2050085293}
+  - component: {fileID: 2050085294}
+  m_Layer: 0
+  m_Name: GameControl
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2050085293
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2050085292}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.6457425, y: -0.20210513, z: -0.013671875}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2050085294
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2050085292}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5630a61877588474dbcfe5f4e348a479, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2089340570
 GameObject:
   m_ObjectHideFlags: 0
@@ -2265,7 +2750,7 @@ GameObject:
   m_Layer: 0
   m_Name: '? Block'
   m_TagString: Untagged
-  m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -2305,7 +2790,7 @@ GameObject:
   m_Layer: 0
   m_Name: World 7_4
   m_TagString: Untagged
-  m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -2333,3 +2818,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6d9725bb3823d9446a5ab29cf0daa61f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  price: 0
+  hotels: 0

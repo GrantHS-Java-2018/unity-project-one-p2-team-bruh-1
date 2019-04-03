@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class GameControl : MonoBehaviour
 {
@@ -36,7 +37,53 @@ public class GameControl : MonoBehaviour
 	}
 	
 	// Update is called once per frame
-	void Update () {
-		
+	void Update()
+	{
+		if (player1.GetComponent<FollowingPath>().waypointIndex > player1StartWaypoint + diceSideThrown)
+		{
+			player1.GetComponent<FollowingPath>().moveAllowed = false;
+			player1MoveText.gameObject.SetActive(false);
+			Player2MoveText.gameObject.SetActive(true);
+			player1StartWaypoint = player1.GetComponent<FollowingPath>().waypointIndex - 1;
+		}
+
+		if (player2.GetComponent<FollowingPath>().waypointIndex > player2StartWaypoint + diceSideThrown)
+		{
+			player2.GetComponent<FollowingPath>().moveAllowed = false;
+			Player2MoveText.gameObject.SetActive(false);
+			player1MoveText.gameObject.SetActive(true);
+			player2StartWaypoint = player2.GetComponent<FollowingPath>().waypointIndex - 1;
+		}
+
+		if (player1.GetComponent<FollowingPath>().waypointIndex ==
+		    player1.GetComponent<FollowingPath>().waypoints.Length)
+		{
+			whoWinsText.gameObject.SetActive(true);
+			whoWinsText.GetComponent<Text>().text = "Player 1 wins!";
+			gameOver = true;
+		}
+
+		if (player2.GetComponent<FollowingPath>().waypointIndex ==
+		    player2.GetComponent<FollowingPath>().waypoints.Length)
+		{
+			whoWinsText.gameObject.SetActive(true);
+			player1MoveText.gameObject.SetActive(false);
+			Player2MoveText.gameObject.SetActive(false);
+			whoWinsText.GetComponent<Text>().text = "Player 2 wins!";
+			gameOver = true;
+		}
 	}
+		public static void MovePlayer(int playerToMove)
+		{
+			switch (playerToMove)
+			{
+				case 1:
+					player1.GetComponent<FollowingPath>().moveAllowed = true;
+					break;
+				
+				case 2:
+					player2.GetComponent<FollowingPath>().moveAllowed = true;
+					break;
+			}
+		}
 }
