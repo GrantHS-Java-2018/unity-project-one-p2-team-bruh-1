@@ -2,15 +2,35 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class FireFlower_U1 : MonoBehaviour {
+public class FireFlower_U1 : PropertyMasterScript {
 
-	// Use this for initialization
-	void Start () {
+	public FireFlower_U1()
+	{
+		price = 150;
+		purchased = false;
+		mortgaged = false;
+		h0rent = ;
+		
 		
 	}
-	
-	// Update is called once per frame
-	void Update () {
-		
+
+	public override void doThing()
+	{
+		if (purchased == false)
+		{
+			//Prompt: do you want to buy this property?
+			//If (wantToBuy == true){
+			/* if the player has enough money to buy it{
+			 * 			purchased == true
+			 * 			money.player-= price
+			 *	}
+		}*/	
+		}
+
+		if (purchased == true)
+		{
+			if 
+		}
 	}
+
 }

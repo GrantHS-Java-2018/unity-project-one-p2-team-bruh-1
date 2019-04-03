@@ -2,19 +2,26 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PropertyMasterScript : MonoBehaviour
+public class PropertyMasterScript : GameTilesMasterScript
 {
 
 	public int price;
 	public int hotels;
+	
+	public bool purchased;
+	public bool mortgaged;
+	public bool monopoly;
 
-	public virtual void MakeSound()
-	{
-		Debug.Log("No sound detected");
-	}
+	public int h0rent;
+	public int h1rent;
+	public int h2rent;
+	public int h3rent;
+	public int h4rent;
 
-	private void Start()
+	
+
+	public virtual void rent()
 	{
-		MakeSound();
+		
 	}
 }

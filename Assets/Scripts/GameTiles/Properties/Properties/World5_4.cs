@@ -4,13 +4,9 @@ using UnityEngine;
 
 public class World5_4 : PropertyMasterScript {
 
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
+	public World5_4()
+	{
+		price = 240;
+		hotels = 0;
 	}
 }

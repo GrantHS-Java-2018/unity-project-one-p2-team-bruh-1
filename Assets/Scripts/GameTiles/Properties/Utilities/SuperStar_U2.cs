@@ -2,15 +2,12 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SuperStar_U2 : MonoBehaviour {
+public class SuperStar_U2 : PropertyMasterScript {
 
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
+	public SuperStar_U2()
+	{
+		price = 150;
+		purchased = false;
+		mortgaged = false;
 	}
 }
