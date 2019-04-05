@@ -30,17 +30,17 @@ public class SuperStar_U2 : PropertyMasterScript {
 
 		if (purchased == true)
 		{
-			int amountRolled = rnd.Next(1, 7);
-			amountRolled += rnd.Next(1, 7);
+			//int amountRolled = rnd.Next(1, 7);
+			//amountRolled += rnd.Next(1, 7);
 		
 			if (monopoly == true)
 			{
-				int rent = amountRolled * 10;
+				//int rent = amountRolled * 10;
 
 			}
 			else
 			{
-				int rent = amountRolled * 4;
+				//int rent = amountRolled * 4;
 
 			}
 		}
