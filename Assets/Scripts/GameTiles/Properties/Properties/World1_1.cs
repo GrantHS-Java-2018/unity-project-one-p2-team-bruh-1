@@ -10,11 +10,11 @@ public class World1_1 : PropertyMasterScript
 		hotels = 0;
 		purchased = false;
 		mortgaged = false;
-		h0rent = ;
-		h1rent = ;
-		h2rent = ;
-		h3rent = ;
-		h4rent = ;
+		h0rent = 0;
+		h1rent = 0;
+		h2rent = 0;
+		h3rent = 0;
+		h4rent = 0;
 		
 	}
 

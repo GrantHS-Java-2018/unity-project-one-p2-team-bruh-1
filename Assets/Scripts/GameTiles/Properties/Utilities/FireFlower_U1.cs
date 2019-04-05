@@ -9,7 +9,7 @@ public class FireFlower_U1 : PropertyMasterScript {
 		price = 150;
 		purchased = false;
 		mortgaged = false;
-		h0rent = ;
+		h0rent = 0;
 		
 		
 	}
@@ -22,14 +22,21 @@ public class FireFlower_U1 : PropertyMasterScript {
 			//If (wantToBuy == true){
 			/* if the player has enough money to buy it{
 			 * 			purchased == true
-			 * 			money.player-= price
+			 * 			money.activePlayer-= price
 			 *	}
 		}*/	
 		}
 
 		if (purchased == true)
 		{
-			if 
+			if (monopoly == true)
+			{
+				
+			}
+			else
+			{
+				
+			}
 		}
 	}
 
