@@ -3,19 +3,21 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class FireFlower_U1 : PropertyMasterScript {
-
+	Random random = new Random();
 	public FireFlower_U1()
 	{
 		price = 150;
 		purchased = false;
 		mortgaged = false;
-		h0rent = 0;
+		rentArray = new [] {0, 0, 0, 0, 0};
 		
 		
 	}
 
-	public override void doThing(GameObject player)
+	public void doThing(GameObject player)
 	{
+		int amountRolled = 0 + 0;
+		
 		if (purchased == false)
 		{
 			if (wantToBuy == true)
@@ -32,18 +34,18 @@ public class FireFlower_U1 : PropertyMasterScript {
 			 * 			money.activePlayer-= price
 			 *	}
 		}*/
-			P1Script.purchase(fireFlowerU1);
+			player.purchase(fireFlowerU1);
 		}
 
 		if (purchased == true)
 		{
 			if (monopoly == true)
 			{
-				
+				player.pay(player, otherPlayer, amountRolled * 10);
 			}
 			else
 			{
-				
+				player.pay(player, otherPlayer, amountRolled * 2);
 			}
 		}
 	}

@@ -2,13 +2,14 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class PlayerMasterScript : MonoBehaviour
 {
 
 	public int balance
 	{
 		get { return balance; }
-		/*set
+		set
 		{
 			if (value < 0)
 			{
@@ -18,7 +19,7 @@ public class PlayerMasterScript : MonoBehaviour
 			{
 				balance = 0;
 			}
-		}*/
+		}
 	}
 
 	public bool world1_1;
