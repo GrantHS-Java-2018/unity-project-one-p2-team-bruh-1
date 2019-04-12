@@ -8,14 +8,14 @@ public class GameControl : MonoBehaviour
 
 	private static GameObject whoWinsText, player1MoveText, Player2MoveText;
 
-	private static GameObject player1, player2;
+	[SerializeField] private GameObject player1, player2;
 
-	public static int diceSideThrown = 0;
+	public int diceSideThrown = 0;
 
-	public static int player1StartWaypoint = 0;
-	public static int player2StartWaypoint = 0;
+	public int player1StartWaypoint = 0;
+	public int player2StartWaypoint = 0;
 
-	public static bool gameOver = false;
+	public bool gameOver = false;
 	
 	// Use this for initialization
 	void Start ()
@@ -23,10 +23,7 @@ public class GameControl : MonoBehaviour
 
 		whoWinsText = GameObject.Find("WhoWinsText");
 		player1MoveText = GameObject.Find("Player1MoveText");
-		Player2MoveText = GameObject.Find("Player2MoveText");
-		
-		player1 = GameObject.Find("player1");
-		player2 = GameObject.Find("player2");
+		Player2MoveText = GameObject.Find("Player2MoveText");	
 
 		player1.GetComponent<FollowingPath>().moveAllowed = false;
 		player2.GetComponent<FollowingPath>().moveAllowed = false;
@@ -55,10 +52,14 @@ public class GameControl : MonoBehaviour
 			player2StartWaypoint = player2.GetComponent<FollowingPath>().waypointIndex - 1;
 		}
 
-		if (player1.GetComponent<FollowingPath>().waypointIndex ==
-		    player1.GetComponent<FollowingPath>().waypoints.Length)
+		
+		
+		//change this to loss condition of bankruptcy.
+		if (player1.GetComponent<P1Script>().GetComponent<int>(balance) = 0)
 		{
 			whoWinsText.gameObject.SetActive(true);
+			player1MoveText.gameObject.SetActive(false);
+			Player2MoveText.gameObject.SetActive(false);
 			whoWinsText.GetComponent<Text>().text = "Player 1 wins!";
 			gameOver = true;
 		}
@@ -73,14 +74,14 @@ public class GameControl : MonoBehaviour
 			gameOver = true;
 		}
 	}
-		public static void MovePlayer(int playerToMove)
+		public void MovePlayer(int playerToMove)
 		{
 			switch (playerToMove)
 			{
 				case 1:
 					player1.GetComponent<FollowingPath>().moveAllowed = true;
 					break;
-				
+
 				case 2:
 					player2.GetComponent<FollowingPath>().moveAllowed = true;
 					break;
