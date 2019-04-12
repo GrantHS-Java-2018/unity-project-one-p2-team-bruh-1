@@ -33,6 +33,7 @@ public class GameControl : MonoBehaviour
 		
 	}
 	
+	
 	// Update is called once per frame
 	void Update()
 	{
@@ -55,7 +56,7 @@ public class GameControl : MonoBehaviour
 		
 		
 		//change this to loss condition of bankruptcy.
-		if (player1.GetComponent<P1Script>().GetComponent<int>(balance) = 0)
+		if (player1.GetComponent<P1Script>().balance == 0)
 		{
 			whoWinsText.gameObject.SetActive(true);
 			player1MoveText.gameObject.SetActive(false);
