@@ -8,4 +8,6 @@ public class P2Script : PlayerMasterScript {
 	{
 		balance = 1500;
 	}
+
+	
 }

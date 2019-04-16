@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using Boo.Lang.Environments;
 using UnityEngine;
 
 public class FollowingPath : MonoBehaviour
@@ -12,6 +13,8 @@ public class FollowingPath : MonoBehaviour
 	[HideInInspector] public int waypointIndex = 0;
 
 	public bool moveAllowed = false;
+
+	public GameObject activePlayer;
 	
 	// Use this for initialization
 	void Start ()
