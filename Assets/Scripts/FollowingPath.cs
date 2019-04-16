@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class FollowingPath : MonoBehaviour
 {
+	
 	public Transform[] waypoints;
 
 	[SerializeField] private float moveSpeed = 1f;
@@ -26,6 +27,8 @@ public class FollowingPath : MonoBehaviour
 		if (moveAllowed)
 			Move();
 	}
+	
+	
 	private void Move()
 	{	
 		if (waypointIndex <= waypoints.Length - 1)

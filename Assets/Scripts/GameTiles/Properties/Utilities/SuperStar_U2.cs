@@ -10,7 +10,6 @@ public class SuperStar_U2 : PropertyMasterScript {
 		price = 150;
 		purchased = false;
 		mortgaged = false;
-		h0rent = 0;
 		
 		
 	}

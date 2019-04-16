@@ -10,12 +10,8 @@ public class World1_1 : PropertyMasterScript
 		hotels = 0;
 		purchased = false;
 		mortgaged = false;
-		h0rent = 0;
-		h1rent = 0;
-		h2rent = 0;
-		h3rent = 0;
-		h4rent = 0;
-		
+		rentArray = new int[5] {0, 0, 0, 0, 0};
+
 	}
 
 	public override void doThing()
@@ -42,15 +38,15 @@ public class World1_1 : PropertyMasterScript
 		switch (hotels)
 		{
 			case 0:
-				return h0rent;
+				return rentArray[0];
 			case 1:
-				return h1rent;
+				return rentArray[1];
 			case 2:
-				return h2rent;
+				return rentArray[2];
 			case 3:
-				return h3rent;
+				return rentArray[3];
 			case 4:
-				return h4rent;
+				return rentArray[4];
 		}
 		return 0;
 	}

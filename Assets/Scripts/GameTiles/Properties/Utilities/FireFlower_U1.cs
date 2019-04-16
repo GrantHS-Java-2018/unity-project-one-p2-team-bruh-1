@@ -9,7 +9,7 @@ public class FireFlower_U1 : PropertyMasterScript {
 		price = 150;
 		purchased = false;
 		mortgaged = false;
-		h0rent = 0;
+		rentArray = new int[2];
 		
 		
 	}
