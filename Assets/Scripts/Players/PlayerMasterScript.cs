@@ -5,20 +5,16 @@ using UnityEngine;
 public class PlayerMasterScript : MonoBehaviour
 {
 
-	public int balance
+	public int balance;
+
+	public void setBalance(int value)
 	{
-		get { return balance; }
-		set
-		{
-			if (value < 0)
-			{
-				balance = 0;
-			}
-			else
-			{
-				balance = 0;
-			}
-		}
+		balance += value;
+	}
+
+	public int getBalance()
+	{
+		return balance;
 	}
 
 	public bool world1_1;
@@ -54,7 +50,6 @@ public class PlayerMasterScript : MonoBehaviour
 	{
 		property = true;
 	}
-	
-	
+
 	
 }

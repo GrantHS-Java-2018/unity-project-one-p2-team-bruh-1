@@ -5,6 +5,8 @@ using UnityEngine;
 public class PropertyMasterScript : GameTilesMasterScript
 {
 
+	
+	
 	public int price;
 	public int hotels;
 	
@@ -13,7 +15,7 @@ public class PropertyMasterScript : GameTilesMasterScript
 	public bool monopoly;
 
 
-
+	
 	public int[] rentArray = new int[5];
 	
 
