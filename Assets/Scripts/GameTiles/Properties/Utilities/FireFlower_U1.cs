@@ -14,7 +14,7 @@ public class FireFlower_U1 : PropertyMasterScript {
 		
 	}
 
-	public override void doThing()
+	public void doThing()
 	{
 		if (purchased == false)
 		{

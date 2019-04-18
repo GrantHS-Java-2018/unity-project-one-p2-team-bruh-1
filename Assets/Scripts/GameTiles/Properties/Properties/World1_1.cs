@@ -14,9 +14,13 @@ public class World1_1 : PropertyMasterScript
 
 	}
 
-	public override void doThing()
+	
+	
+	
+	public override void doThing(GameObject playerMovingHere)
 	{
-		                                                
+
+		
 		if (purchased == false)
 		{
 			//Prompt: do you want to buy this property?
@@ -25,14 +29,20 @@ public class World1_1 : PropertyMasterScript
 				 * 			purchased == true
 				 * 			money.player-= price
 				 *	}
-			}*/	
+			}*/
+				if (playerMovingHere.GetComponent<PlayerMasterScript>().getBalance() >= price)
+				{
+					
+				}
 			
 			
 			
 		}
 
-		if (purchased == true)
+		else if (purchased == true)
 		{
+			
+			
 			
 			GetComponent<P1Script>().setBalance(-(rentArray[hotels]));
 			GetComponent<P2Script>().setBalance(rentArray[hotels]);

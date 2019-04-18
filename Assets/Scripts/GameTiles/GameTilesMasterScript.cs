@@ -7,7 +7,7 @@ public class GameTilesMasterScript : MonoBehaviour
 
 	
 	
-	public virtual void doThing()
+	public virtual void doThing(GameObject playerMovingHere)
 	{
 		Debug.Log("No tile found to doThing");
 	}

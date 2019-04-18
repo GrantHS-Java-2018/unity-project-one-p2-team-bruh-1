@@ -14,7 +14,7 @@ public class SuperStar_U2 : PropertyMasterScript {
 		
 	}
 
-	public override void doThing()
+	public void doThing()
 	{
 		if (purchased == false)
 		{
