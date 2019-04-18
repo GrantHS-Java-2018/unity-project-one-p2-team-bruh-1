@@ -26,6 +26,9 @@ public class World1_1 : PropertyMasterScript
 				 * 			money.player-= price
 				 *	}
 			}*/	
+			
+			
+			
 		}
 
 		if (purchased == true)
