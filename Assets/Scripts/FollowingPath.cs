@@ -29,7 +29,11 @@ public class FollowingPath : MonoBehaviour
 	{
 		if (moveAllowed)
 			Move();
+		
 	}
+	
+	
+	
 	
 	
 	private void Move()

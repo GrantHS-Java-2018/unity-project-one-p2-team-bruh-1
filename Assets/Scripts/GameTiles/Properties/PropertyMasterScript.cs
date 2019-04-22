@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PropertyMasterScript : GameTilesMasterScript
 {
@@ -23,20 +24,17 @@ public class PropertyMasterScript : GameTilesMasterScript
 		
 		if (purchased == false)
 		{
-			//Prompt: do you want to buy this property?
-			//If (wantToBuy == true){
-			/* if the player has enough money to buy it{
-			 * 			purchased == true
-			 * 			money.player-= price
-			 *	}
-		}*/
-			if (playerMovingHere.GetComponent<PlayerMasterScript>().getBalance() >= price)
+			SceneManager.LoadScene("BuyProperty", LoadSceneMode.Additive);
+
+			if (GetComponent<Button>().answer == true)
 			{
-				this.purchased = true;
+
+				if (playerMovingHere.GetComponent<PlayerMasterScript>().getBalance() >= price)
+				{
+					this.purchased = true;
+					playerMovingHere.GetComponent<PlayerMasterScript>().setBalance(this.price);
+				}
 			}
-			
-			
-			
 		}
 
 		else if (purchased == true)
@@ -73,4 +71,6 @@ public class PropertyMasterScript : GameTilesMasterScript
 		}
 		return 0;
 	}
+
+	
 }

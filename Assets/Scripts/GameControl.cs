@@ -40,6 +40,7 @@ public class GameControl : MonoBehaviour
 		if (player1.GetComponent<FollowingPath>().waypointIndex > player1StartWaypoint + diceSideThrown)
 		{
 			player1.GetComponent<FollowingPath>().moveAllowed = false;
+			GetComponent<FollowingPath>().activePlayer = player2;
 			player1MoveText.gameObject.SetActive(false);
 			Player2MoveText.gameObject.SetActive(true);
 			player1StartWaypoint = player1.GetComponent<FollowingPath>().waypointIndex - 1;
@@ -48,6 +49,7 @@ public class GameControl : MonoBehaviour
 		if (player2.GetComponent<FollowingPath>().waypointIndex > player2StartWaypoint + diceSideThrown)
 		{
 			player2.GetComponent<FollowingPath>().moveAllowed = false;
+			GetComponent<FollowingPath>().activePlayer = player1;
 			Player2MoveText.gameObject.SetActive(false);
 			player1MoveText.gameObject.SetActive(true);
 			player2StartWaypoint = player2.GetComponent<FollowingPath>().waypointIndex - 1;
