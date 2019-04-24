@@ -193,16 +193,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3cdd8acb51a3b74439f7cf96444e4702, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  price: 0
-  hotels: 0
-  purchased: 0
-  mortgaged: 0
-  monopoly: 0
-  h0rent: 0
-  h1rent: 0
-  h2rent: 0
-  h3rent: 0
-  h4rent: 0
 --- !u!1 &84892414
 GameObject:
   m_ObjectHideFlags: 0
@@ -243,16 +233,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bbb0e77b20307bf4ca3b0c08ee0f0787, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  price: 100
-  hotels: 0
-  purchased: 0
-  mortgaged: 0
-  monopoly: 0
-  h0rent: 0
-  h1rent: 0
-  h2rent: 0
-  h3rent: 0
-  h4rent: 0
 --- !u!1 &157464266
 GameObject:
   m_ObjectHideFlags: 0
@@ -407,16 +387,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 10da17d621726b347b3f4c003ca8fef2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  price: 0
-  hotels: 0
-  purchased: 0
-  mortgaged: 0
-  monopoly: 0
-  h0rent: 0
-  h1rent: 0
-  h2rent: 0
-  h3rent: 0
-  h4rent: 0
 --- !u!1 &270535799
 GameObject:
   m_ObjectHideFlags: 0
@@ -497,16 +467,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5fcfc4af7c211024b8a36b7824885959, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  price: 0
-  hotels: 0
-  purchased: 0
-  mortgaged: 0
-  monopoly: 0
-  h0rent: 0
-  h1rent: 0
-  h2rent: 0
-  h3rent: 0
-  h4rent: 0
 --- !u!1 &335446988
 GameObject:
   m_ObjectHideFlags: 0
@@ -547,16 +507,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce8c52f02b3d831449298218f4d019cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  price: 0
-  hotels: 0
-  purchased: 0
-  mortgaged: 0
-  monopoly: 0
-  h0rent: 0
-  h1rent: 0
-  h2rent: 0
-  h3rent: 0
-  h4rent: 0
 --- !u!1 &387973910
 GameObject:
   m_ObjectHideFlags: 0
@@ -637,16 +587,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7562b4830114b6b4fb005f0bfcb5ecac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  price: 120
-  hotels: 0
-  purchased: 0
-  mortgaged: 0
-  monopoly: 0
-  h0rent: 0
-  h1rent: 0
-  h2rent: 0
-  h3rent: 0
-  h4rent: 0
 --- !u!1 &470405719
 GameObject:
   m_ObjectHideFlags: 0
@@ -687,16 +627,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70b4489c9c42c504d957da4d5fee1474, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  price: 60
-  hotels: 0
-  purchased: 0
-  mortgaged: 0
-  monopoly: 0
-  h0rent: 0
-  h1rent: 0
-  h2rent: 0
-  h3rent: 0
-  h4rent: 0
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -1054,8 +984,6 @@ MonoBehaviour:
   - {fileID: 857941353}
   moveSpeed: 5
   waypointIndex: 0
-  player1: {fileID: 0}
-  player2: {fileID: 0}
   moveAllowed: 0
   activePlayer: {fileID: 0}
 --- !u!1 &765731852
@@ -1173,16 +1101,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4837454da00bfe5479d572d598344709, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  price: 100
-  hotels: 0
-  purchased: 0
-  mortgaged: 0
-  monopoly: 0
-  h0rent: 0
-  h1rent: 0
-  h2rent: 0
-  h3rent: 0
-  h4rent: 0
 --- !u!1 &856508636
 GameObject:
   m_ObjectHideFlags: 0
@@ -1298,16 +1216,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f2baf467779a02d4482bb9e90c07667c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  price: 0
-  hotels: 0
-  purchased: 0
-  mortgaged: 0
-  monopoly: 0
-  h0rent: 0
-  h1rent: 0
-  h2rent: 0
-  h3rent: 0
-  h4rent: 0
 --- !u!1 &865980135
 GameObject:
   m_ObjectHideFlags: 0
@@ -1446,16 +1354,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cfdaf65aaa1b9914c87273e347fd9532, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  price: 0
-  hotels: 0
-  purchased: 0
-  mortgaged: 0
-  monopoly: 0
-  h0rent: 0
-  h1rent: 0
-  h2rent: 0
-  h3rent: 0
-  h4rent: 0
 --- !u!1 &991056560
 GameObject:
   m_ObjectHideFlags: 0
@@ -1611,16 +1509,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 93036a24e43e0d745aae15235474f24f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  price: 0
-  hotels: 0
-  purchased: 0
-  mortgaged: 0
-  monopoly: 0
-  h0rent: 0
-  h1rent: 0
-  h2rent: 0
-  h3rent: 0
-  h4rent: 0
 --- !u!1 &1066302998
 GameObject:
   m_ObjectHideFlags: 0
@@ -1883,8 +1771,6 @@ MonoBehaviour:
   - {fileID: 857941353}
   moveSpeed: 5
   waypointIndex: 0
-  player1: {fileID: 0}
-  player2: {fileID: 0}
   moveAllowed: 0
   activePlayer: {fileID: 0}
 --- !u!1 &1136293350
@@ -1927,16 +1813,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 580f6000ee396654abdcdf023b7d03e5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  price: 0
-  hotels: 0
-  purchased: 0
-  mortgaged: 0
-  monopoly: 0
-  h0rent: 0
-  h1rent: 0
-  h2rent: 0
-  h3rent: 0
-  h4rent: 0
 --- !u!1 &1237185297
 GameObject:
   m_ObjectHideFlags: 0
@@ -2017,16 +1893,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4953581bcab2b74595710fbdd1b1566, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  price: 0
-  hotels: 0
-  purchased: 0
-  mortgaged: 0
-  monopoly: 0
-  h0rent: 0
-  h1rent: 0
-  h2rent: 0
-  h3rent: 0
-  h4rent: 0
 --- !u!1 &1307137418
 GameObject:
   m_ObjectHideFlags: 0
@@ -2169,8 +2035,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6f95c8f359eab74498f9b6de45293a57, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player1: {fileID: 0}
-  player2: {fileID: 0}
+  player1: {fileID: 714778385}
+  player2: {fileID: 1128270486}
   price: 60
   hotels: 0
   purchased: 0
@@ -2285,16 +2151,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4c5273cc8e92764ebe3fc00ec4ee569, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  price: 0
-  hotels: 0
-  purchased: 0
-  mortgaged: 0
-  monopoly: 0
-  h0rent: 0
-  h1rent: 0
-  h2rent: 0
-  h3rent: 0
-  h4rent: 0
 --- !u!1 &1589579183
 GameObject:
   m_ObjectHideFlags: 0
@@ -2335,16 +2191,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f97baa2f92d1eba439ccf57b6964be29, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  price: 0
-  hotels: 0
-  purchased: 0
-  mortgaged: 0
-  monopoly: 0
-  h0rent: 0
-  h1rent: 0
-  h2rent: 0
-  h3rent: 0
-  h4rent: 0
 --- !u!1 &1608460163
 GameObject:
   m_ObjectHideFlags: 0
@@ -2385,16 +2231,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 37f2f474deae20d499dcfe9b10be0e5d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  price: 0
-  hotels: 0
-  purchased: 0
-  mortgaged: 0
-  monopoly: 0
-  h0rent: 0
-  h1rent: 0
-  h2rent: 0
-  h3rent: 0
-  h4rent: 0
 --- !u!1 &1617997175
 GameObject:
   m_ObjectHideFlags: 0
@@ -2435,16 +2271,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dbd7a800326c4ad4b8f84a08c37fc973, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  price: 0
-  hotels: 0
-  purchased: 0
-  mortgaged: 0
-  monopoly: 0
-  h0rent: 0
-  h1rent: 0
-  h2rent: 0
-  h3rent: 0
-  h4rent: 0
 --- !u!1 &1657268823
 GameObject:
   m_ObjectHideFlags: 0
@@ -2568,6 +2394,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1668257543}
   - component: {fileID: 1668257542}
+  - component: {fileID: 1668257544}
   m_Layer: 0
   m_Name: Board
   m_TagString: Untagged
@@ -2634,6 +2461,25 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1668257544
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1668257541}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d92b751b1143ec42bf145f618c07909, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player1: {fileID: 714778385}
+  player2: {fileID: 1128270486}
+  price: 0
+  hotels: 0
+  purchased: 0
+  mortgaged: 0
+  monopoly: 0
+  rentArray: 0000000000000000000000000000000000000000
 --- !u!1 &1684694414
 GameObject:
   m_ObjectHideFlags: 0
@@ -2850,16 +2696,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3c982d8b1c998be4fa3d4de5fd069ce5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  price: 0
-  hotels: 0
-  purchased: 0
-  mortgaged: 0
-  monopoly: 0
-  h0rent: 0
-  h1rent: 0
-  h2rent: 0
-  h3rent: 0
-  h4rent: 0
 --- !u!1 &1951687818
 GameObject:
   m_ObjectHideFlags: 0
@@ -3060,16 +2896,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 50bf0cd3a13c30a4f9c19a25c8c0299c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  price: 0
-  hotels: 0
-  purchased: 0
-  mortgaged: 0
-  monopoly: 0
-  h0rent: 0
-  h1rent: 0
-  h2rent: 0
-  h3rent: 0
-  h4rent: 0
 --- !u!1 &2046593117
 GameObject:
   m_ObjectHideFlags: 0
@@ -3110,16 +2936,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac3e7f695bcbe8144b578f672b6601bb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  price: 0
-  hotels: 0
-  purchased: 0
-  mortgaged: 0
-  monopoly: 0
-  h0rent: 0
-  h1rent: 0
-  h2rent: 0
-  h3rent: 0
-  h4rent: 0
 --- !u!1 &2050085292
 GameObject:
   m_ObjectHideFlags: 0
@@ -3246,13 +3062,3 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6d9725bb3823d9446a5ab29cf0daa61f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  price: 0
-  hotels: 0
-  purchased: 0
-  mortgaged: 0
-  monopoly: 0
-  h0rent: 0
-  h1rent: 0
-  h2rent: 0
-  h3rent: 0
-  h4rent: 0
