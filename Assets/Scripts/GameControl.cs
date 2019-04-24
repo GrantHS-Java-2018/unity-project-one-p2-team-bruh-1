@@ -54,26 +54,32 @@ public class GameControl : MonoBehaviour
 			player1MoveText.gameObject.SetActive(true);
 			player2StartWaypoint = player2.GetComponent<FollowingPath>().waypointIndex - 1;
 		}
+		if (player1.GetComponent<FollowingPath>().waypointIndex == player1.GetComponent<FollowingPath>().waypoints.Length)
+		{
+			player1.GetComponent<FollowingPath>().waypointIndex %= 40;
+		}
+		if (player2.GetComponent<FollowingPath>().waypointIndex == player2.GetComponent<FollowingPath>().waypoints.Length)
+		{
+			player2.GetComponent<FollowingPath>().waypointIndex %= 40;
+		}
+		
+		if (player1.GetComponent<PlayerMasterScript>().getBalance() == 0)
+		{
+			whoWinsText.gameObject.SetActive(true);
+			player1MoveText.gameObject.SetActive(false);
+			Player2MoveText.gameObject.SetActive(false);
+			whoWinsText.GetComponent<Text>().text = "Mario wins!";
+			gameOver = true;
+		}
 
-		//change this to loss condition of bankruptcy.
-		//if (player1.GetComponent<P1Script>().balance == 0)
-		//{
-		//	whoWinsText.gameObject.SetActive(true);
-		//	player1MoveText.gameObject.SetActive(false);
-		//	Player2MoveText.gameObject.SetActive(false);
-		//	whoWinsText.GetComponent<Text>().text = "Player 1 wins!";
-		//	gameOver = true;
-		//}
-
-		//if (player2.GetComponent<FollowingPath>().waypointIndex ==
-		 //   player2.GetComponent<FollowingPath>().waypoints.Length)
-		//{
-		//	whoWinsText.gameObject.SetActive(true);
-		//	player1MoveText.gameObject.SetActive(false);
-		//	Player2MoveText.gameObject.SetActive(false);
-		//	whoWinsText.GetComponent<Text>().text = "Player 2 wins!";
-		//	gameOver = true;
-		//}
+		if (player2.GetComponent<PlayerMasterScript>().getBalance() == 0)
+		{
+			whoWinsText.gameObject.SetActive(true);
+			player1MoveText.gameObject.SetActive(false);
+			Player2MoveText.gameObject.SetActive(false);
+			whoWinsText.GetComponent<Text>().text = "Luigi wins!";
+			gameOver = true;
+		}
 	}
 		public void MovePlayer(int playerToMove)
 		{
