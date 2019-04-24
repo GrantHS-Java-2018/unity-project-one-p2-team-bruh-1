@@ -12,8 +12,6 @@ public class FollowingPath : MonoBehaviour
 
 	[HideInInspector] public int waypointIndex = 0;
 
-	public GameObject player1, player2;
-	
 	public bool moveAllowed = false;
 
 	public GameObject activePlayer;
@@ -40,8 +38,8 @@ public class FollowingPath : MonoBehaviour
 	{	
 		if (waypointIndex <= waypoints.Length - 1)
 		{
-			player1.GetComponent<FollowingPath>().waypointIndex %= 40;
-			player2.GetComponent<FollowingPath>().waypointIndex %= 40;
+			GetComponent<FollowingPath>().waypointIndex %= 40;
+			
 
 			transform.position = Vector2.MoveTowards(transform.position,
 				waypoints[waypointIndex].transform.position,
