@@ -50,6 +50,6 @@ public class FollowingPath : MonoBehaviour
 				waypointIndex += 1;
 			}
 		}
-	}
+	} 
 }
 

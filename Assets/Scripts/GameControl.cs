@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class GameControl : MonoBehaviour
 {
-
+    //
 	private static GameObject whoWinsText, player1MoveText, Player2MoveText;
 
 	[SerializeField] private GameObject player1, player2;
@@ -20,7 +20,6 @@ public class GameControl : MonoBehaviour
 	// Use this for initialization
 	void Start ()
 	{
-
 		whoWinsText = GameObject.Find("WhoWinsText");
 		player1MoveText = GameObject.Find("Player1MoveText");
 		Player2MoveText = GameObject.Find("Player2MoveText");	
@@ -36,39 +35,69 @@ public class GameControl : MonoBehaviour
 	
 	// Update is called once per frame
 	void Update()
-	{			
-		if (player1.GetComponent<FollowingPath>().waypointIndex > player1StartWaypoint + diceSideThrown)
-		{
-			player1.GetComponent<FollowingPath>().moveAllowed = false;
-			GetComponent<FollowingPath>().activePlayer = player2;
-			player1MoveText.gameObject.SetActive(false);
-			Player2MoveText.gameObject.SetActive(true);
-			player1StartWaypoint = player1.GetComponent<FollowingPath>().waypointIndex - 1;
-		}
+	{	
+        ////EMILIO FIX
+        //checks if player one is going to do a loop
+        if (player1StartWaypoint + diceSideThrown > 39 )
+        {
+            // if player 1 is going to do a loop make the game think that its just starting again but from a negative pos
+            player1StartWaypoint = player1StartWaypoint - 39;
+            print("Emilio Fix State:1"+player1StartWaypoint);
+        }
+        //checks if player one is going to do a loop
+        if (player2StartWaypoint + diceSideThrown > 39)
+        {
+            // if player 1 is going to do a loop make the game think that its just starting again but from a negative pos
+            player2StartWaypoint = player2StartWaypoint - 39;
+            print("Emilio Fix State:2" + player2StartWaypoint);
+        }
+        if (player1.GetComponent<FollowingPath>().waypointIndex == player1StartWaypoint + diceSideThrown)
+        {
+            player1.GetComponent<FollowingPath>().moveAllowed = false;
+            player1MoveText.gameObject.SetActive(false);
+            Player2MoveText.gameObject.SetActive(true);
+            player1StartWaypoint = player1.GetComponent<FollowingPath>().waypointIndex;
+        }
+        if (player2.GetComponent<FollowingPath>().waypointIndex == player2StartWaypoint + diceSideThrown)
+        {
+            player2.GetComponent<FollowingPath>().moveAllowed = false;
+            Player2MoveText.gameObject.SetActive(false);
+            player1MoveText.gameObject.SetActive(true);
+            player2StartWaypoint = player2.GetComponent<FollowingPath>().waypointIndex;
+        }
+        ////OLD CODE FOR REFERENCE
+        //if (player1.GetComponent<FollowingPath>().waypointIndex > player1StartWaypoint + diceSideThrown)
+        //{
+        //    player1.GetComponent<FollowingPath>().moveAllowed = false;
+        //    player1MoveText.gameObject.SetActive(false);
+        //    Player2MoveText.gameObject.SetActive(true);
+        //    player1StartWaypoint = player1.GetComponent<FollowingPath>().waypointIndex - 1;
+        //}
+        //
+        //if (player2.GetComponent<FollowingPath>().waypointIndex > player2StartWaypoint + diceSideThrown)
+        //{
+        //    player2.GetComponent<FollowingPath>().moveAllowed = false;
+        //    Player2MoveText.gameObject.SetActive(false);
+        //    player1MoveText.gameObject.SetActive(true);
+        //    player2StartWaypoint = player2.GetComponent<FollowingPath>().waypointIndex - 1;
+        //}
+        ////END OF FIX
 
-		if (player2.GetComponent<FollowingPath>().waypointIndex > player2StartWaypoint + diceSideThrown)
-		{
-			player2.GetComponent<FollowingPath>().moveAllowed = false;
-			GetComponent<FollowingPath>().activePlayer = player1;
-			Player2MoveText.gameObject.SetActive(false);
-			player1MoveText.gameObject.SetActive(true);
-			player2StartWaypoint = player2.GetComponent<FollowingPath>().waypointIndex - 1;
-		}
-		if (player1.GetComponent<FollowingPath>().waypointIndex == player1.GetComponent<FollowingPath>().waypoints.Length)
+        if (player1.GetComponent<FollowingPath>().waypointIndex > player1.GetComponent<FollowingPath>().waypoints.Length-1)
 		{
 			player1.GetComponent<FollowingPath>().waypointIndex %= 40;
 		}
-		if (player2.GetComponent<FollowingPath>().waypointIndex == player2.GetComponent<FollowingPath>().waypoints.Length)
+        if (player2.GetComponent<FollowingPath>().waypointIndex > player2.GetComponent<FollowingPath>().waypoints.Length-1)
 		{
 			player2.GetComponent<FollowingPath>().waypointIndex %= 40;
 		}
-		
+
 		if (player1.GetComponent<PlayerMasterScript>().getBalance() == 0)
 		{
 			whoWinsText.gameObject.SetActive(true);
 			player1MoveText.gameObject.SetActive(false);
 			Player2MoveText.gameObject.SetActive(false);
-			whoWinsText.GetComponent<Text>().text = "Mario wins!";
+			whoWinsText.GetComponent<Text>().text = "Player 1 wins!";
 			gameOver = true;
 		}
 
@@ -77,7 +106,7 @@ public class GameControl : MonoBehaviour
 			whoWinsText.gameObject.SetActive(true);
 			player1MoveText.gameObject.SetActive(false);
 			Player2MoveText.gameObject.SetActive(false);
-			whoWinsText.GetComponent<Text>().text = "Luigi wins!";
+			whoWinsText.GetComponent<Text>().text = "Player 2 wins!";
 			gameOver = true;
 		}
 	}
