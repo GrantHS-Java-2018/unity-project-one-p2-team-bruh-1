@@ -37,13 +37,20 @@ public class PropertyMasterScript : GameTilesMasterScript
 
 	void Update()
 	{
-		if (player1.GetComponent<FollowingPath>().waypointIndex == PlayerMasterScript.properties[])
+		if (player1.GetComponent<FollowingPath>().waypointIndex == PlayerMasterScript.properties[player1.GetComponent<FollowingPath>().waypointIndex])
 		{
-			doThing(player1);
+			if (player1.GetComponent<FollowingPath>().moveAllowed == false)
+			{
+				doThing(player1);
+			}
 		}
-		if (player2.GetComponent<FollowingPath>().waypointIndex == PlayerMasterScript.properties[])
+		if (player2.GetComponent<FollowingPath>().waypointIndex == PlayerMasterScript.properties[player2.GetComponent<FollowingPath>().waypointIndex])
 		{
-			doThing(player2);
+			if (player2.GetComponent<FollowingPath>().moveAllowed == false)
+            {
+				doThing(player2);
+			}
+			
 		}
 	}
 
