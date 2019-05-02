@@ -38,9 +38,6 @@ public class FollowingPath : MonoBehaviour
 	{	
 		if (waypointIndex <= waypoints.Length - 1)
 		{
-			GetComponent<FollowingPath>().waypointIndex %= 40;
-			
-
 			transform.position = Vector2.MoveTowards(transform.position,
 				waypoints[waypointIndex].transform.position,
 				moveSpeed * Time.deltaTime);

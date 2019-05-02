@@ -7,21 +7,31 @@ public class PropertyMasterScript : GameTilesMasterScript
 {
 
 	public GameObject player1, player2;
-	
+
 	public int price;
 	public int hotels;
-	
+
 	public bool purchased;
 	public bool mortgaged;
 	public bool monopoly;
-	
+
 	public int[] rentArray = new int[5];
-	
+
+
+	void Update()
+	{
+		if (player1.GetComponent<FollowingPath>().waypointIndex == PlayerMasterScript.properties)
+		{
+			doThing(player1);
+		}
+		if (player2.GetComponent<FollowingPath>().waypointIndex == PlayerMasterScript.properties)
+		{
+			doThing(player2);
+		}
+	}
 
 	public override void doThing(GameObject playerMovingHere)
 	{
-
-		
 		if (purchased == false)
 		{
 			SceneManager.LoadScene("BuyProperty", LoadSceneMode.Additive);
@@ -39,7 +49,7 @@ public class PropertyMasterScript : GameTilesMasterScript
 
 		else if (purchased == true)
 		{
-			
+
 			playerMovingHere.GetComponent<PlayerMasterScript>().setBalance(-(rentArray[hotels]));
 			if (playerMovingHere.Equals(player1))
 			{
@@ -49,12 +59,11 @@ public class PropertyMasterScript : GameTilesMasterScript
 			{
 				player1.GetComponent<PlayerMasterScript>().setBalance(rentArray[hotels]);
 			}
-			
-			
 		}
 	}
 
-	public int rent(int hotels)
+
+public int rent(int hotels)
 	{
 		switch (hotels)
 		{
