@@ -67,24 +67,6 @@ public class World1_1 : PropertyMasterScript
 		
 	}
 
-	public int rent(int hotels)
-	{
-		switch (hotels)
-		{
-			case 0:
-				return rentArray[0];
-			case 1:
-				return rentArray[1];
-			case 2:
-				return rentArray[2];
-			case 3:
-				return rentArray[3];
-			case 4:
-				return rentArray[4];
-		}
-		return 0;
-	}
-	
 	
 	
 

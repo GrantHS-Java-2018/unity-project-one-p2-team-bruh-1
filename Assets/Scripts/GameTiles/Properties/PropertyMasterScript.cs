@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Experimental.UIElements;
 using UnityEngine.SceneManagement;
 
 public class PropertyMasterScript : GameTilesMasterScript
@@ -16,42 +17,74 @@ public class PropertyMasterScript : GameTilesMasterScript
 	public bool monopoly;
 	
 	public int[] rentArray = new int[5];
+
+	public bool wantToBuy()
+	{
+		SceneManager.LoadScene("BuyProperty", LoadSceneMode.Additive);
+		if(GetComponent<Button>().answer == true)
+		{
+			return true;
+		}
+		else
+		{
+			SceneManager.LoadScene("Sample Scene", LoadSceneMode.Single);
+			return false;
+		}
+		
+	}
 	
 
+	
 	public override void doThing(GameObject playerMovingHere)
 	{
 
+		if (playerMovingHere.Equals(player1))
+		{
+			if (purchased == false) //If it's not purchased
+			{
+				
+				if (wantToBuy() == true) //If the player wants to buy it
+					if (playerMovingHere.GetComponent<PlayerMasterScript>().getBalance() >= price) //If the player has enough money to buy it
+					{
+						purchased = true;
+						GetComponent<P1Script>().setBalance(-(this.price));
+						GetComponent<P2Script>().setBalance(this.price);
+					}
+            			
+			}
+            
+			else if (purchased == true)
+			{
+				GetComponent<P1Script>().setBalance(-(rentArray[hotels]));
+				GetComponent<P2Script>().setBalance(rentArray[hotels]);
+			}
+		}
+		else if (playerMovingHere.Equals(player2))
+		{
+			if (purchased == false) //If it's not purchased
+			{
+				if (wantToBuy() == true) //If the player wants to buy it
+					if (playerMovingHere.GetComponent<PlayerMasterScript>().getBalance() >= price) //If the player has enough money to buy it
+					{
+						purchased = true;
+						GetComponent<P2Script>().setBalance(-(this.price));
+						GetComponent<P1Script>().setBalance(this.price);
+					}
+            			
+			}
+            
+			else if (purchased == true)
+			{
+				GetComponent<P2Script>().setBalance(-(rentArray[hotels]));
+				GetComponent<P1Script>().setBalance(rentArray[hotels]);
+			}
+		}
+		else
+		{
+			Debug.Log("It did not recognize which player landed on this space");
+		}
 		
-		if (purchased == false)
-		{
-			SceneManager.LoadScene("BuyProperty", LoadSceneMode.Additive);
-
-			if (GetComponent<Button>().answer == true)
-			{
-
-				if (playerMovingHere.GetComponent<PlayerMasterScript>().getBalance() >= price)
-				{
-					this.purchased = true;
-					playerMovingHere.GetComponent<PlayerMasterScript>().setBalance(this.price);
-				}
-			}
-		}
-
-		else if (purchased == true)
-		{
-			
-			playerMovingHere.GetComponent<PlayerMasterScript>().setBalance(-(rentArray[hotels]));
-			if (playerMovingHere.Equals(player1))
-			{
-				player2.GetComponent<PlayerMasterScript>().setBalance(rentArray[hotels]);
-			}
-			else if (playerMovingHere.Equals(player2))
-			{
-				player1.GetComponent<PlayerMasterScript>().setBalance(rentArray[hotels]);
-			}
-			
-			
-		}
+		
 	}
 
 	public int rent(int hotels)
