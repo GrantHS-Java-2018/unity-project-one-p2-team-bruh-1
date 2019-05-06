@@ -85,17 +85,17 @@ public class GameControl : MonoBehaviour
 			gameOver = true;
 		}
 	}
-		public void MovePlayer(int playerToMove)
+	public void MovePlayer(int playerToMove)
+	{
+		switch (playerToMove)
 		{
-			switch (playerToMove)
-			{
-				case 1:
-					player1.GetComponent<FollowingPath>().moveAllowed = true;
-					break;
+			case 1:
+				player1.GetComponent<FollowingPath>().moveAllowed = true;
+				break;
 
-				case 2:
-					player2.GetComponent<FollowingPath>().moveAllowed = true;
-					break;
-			}
+			case 2:
+				player2.GetComponent<FollowingPath>().moveAllowed = true;
+				break;
 		}
+	}
 }

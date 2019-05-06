@@ -30,7 +30,6 @@ public class PropertyMasterScript : GameTilesMasterScript
 			SceneManager.LoadScene("Sample Scene", LoadSceneMode.Single);
 			return false;
 		}
-		
 	}
 	
 
@@ -50,7 +49,6 @@ public class PropertyMasterScript : GameTilesMasterScript
             {
 				doThing(player2);
 			}
-			
 		}
 	}
 
@@ -63,13 +61,12 @@ public class PropertyMasterScript : GameTilesMasterScript
 			{
 				
 				if (wantToBuy() == true) //If the player wants to buy it
-					if (playerMovingHere.GetComponent<PlayerMasterScript>().getBalance() >= price) //If the player has enough money to buy it
+					if (playerMovingHere.GetComponent<PlayerMasterScript>().getBalance() >= price) //If the player 1 has enough money to buy it
 					{
 						purchased = true;
 						GetComponent<P1Script>().setBalance(-(this.price));
 						GetComponent<P2Script>().setBalance(this.price);
-					}
-            			
+					}   			
 			}
             
 			else if (purchased == true)
@@ -85,13 +82,12 @@ public class PropertyMasterScript : GameTilesMasterScript
 			if (playerMovingHere.Equals(player1))
 			{
 				if (wantToBuy() == true) //If the player wants to buy it
-					if (playerMovingHere.GetComponent<PlayerMasterScript>().getBalance() >= price) //If the player has enough money to buy it
+					if (playerMovingHere.GetComponent<PlayerMasterScript>().getBalance() >= price) //If the player 2 has enough money to buy it
 					{
 						purchased = true;
 						GetComponent<P2Script>().setBalance(-(this.price));
 						GetComponent<P1Script>().setBalance(this.price);
-					}
-            			
+					}	
 			}
             
 			else if (purchased == true)
@@ -104,8 +100,6 @@ public class PropertyMasterScript : GameTilesMasterScript
 		{
 			Debug.Log("It did not recognize which player landed on this space");
 		}
-		
-		
 	}
 
 
@@ -126,6 +120,4 @@ public int rent(int hotels)
 		}
 		return 0;
 	}
-
-	
 }
