@@ -15,12 +15,15 @@ public class PropertyMasterScript : GameTilesMasterScript
 	public bool purchased;
 	public bool mortgaged;
 	public bool monopoly;
-
-	public int[] rentArray = new int[5];
+	
+	public int hotelPrice;
+	public int[] rentArray = new int[6];
+	//Rent is doubled if (monopoly == true && hotels=0)
+	//Mortgaged amount is just price/2
 
 	public bool wantToBuy()
 	{
-		SceneManager.LoadScene("BuyProperty", LoadSceneMode.Additive);
+		/*SceneManager.LoadScene("BuyProperty", LoadSceneMode.Additive);
 		if(GetComponent<Button>().answer == true)
 		{
 			return true;
@@ -29,8 +32,8 @@ public class PropertyMasterScript : GameTilesMasterScript
 		{
 			SceneManager.LoadScene("Sample Scene", LoadSceneMode.Single);
 			return false;
-		}
-		
+		}*/
+		return false;
 	}
 	
 
@@ -111,6 +114,10 @@ public class PropertyMasterScript : GameTilesMasterScript
 
 public int rent(int hotels)
 	{
+		if (monopoly == true)
+		{
+			rentArray[0] = rentArray[0] * 2;
+		}
 		switch (hotels)
 		{
 			case 0:

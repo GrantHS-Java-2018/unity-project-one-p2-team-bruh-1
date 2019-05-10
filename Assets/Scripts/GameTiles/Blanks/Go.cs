@@ -4,13 +4,7 @@ using UnityEngine;
 
 public class Go : MonoBehaviour {
 
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
+	/*
+	 * When a player touches the waypoint for go, give them $200
+	 */
 }

@@ -16,6 +16,9 @@ public class PlayerMasterScript : MonoBehaviour
 	{
 		return balance;
 	}
+	
+	public static int[] tiles = new int[40];
+	
 
 	public static int[] properties = new int[28];
 	 /*
