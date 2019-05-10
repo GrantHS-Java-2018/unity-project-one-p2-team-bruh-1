@@ -35,10 +35,10 @@ public class Dice : MonoBehaviour {
             rend.sprite = diceSides[randomDiceSide];
             yield return new WaitForSeconds(0.05f);
         }
-        finalSide = randomDiceSide + 1;
+        finalSide = randomDiceSide + 2;
         Debug.Log(finalSide);
 
-        _gameControl.diceSideThrown = randomDiceSide + 1;
+        _gameControl.diceSideThrown = randomDiceSide + 2;
         if (whosTurn == 1)
         {
             _gameControl.MovePlayer(1);

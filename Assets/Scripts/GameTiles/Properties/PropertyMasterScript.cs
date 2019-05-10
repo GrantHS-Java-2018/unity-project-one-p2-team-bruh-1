@@ -36,8 +36,7 @@ public class PropertyMasterScript : GameTilesMasterScript
 		return false;
 	}
 	
-
-
+	
 	void Update()
 	{
 		if (player1.GetComponent<FollowingPath>().waypointIndex == PlayerMasterScript.properties[player1.GetComponent<FollowingPath>().waypointIndex])
@@ -53,10 +52,9 @@ public class PropertyMasterScript : GameTilesMasterScript
             {
 				doThing(player2);
 			}
-			
 		}
 	}
-
+ 
 	public override void doThing(GameObject playerMovingHere)
 	{
 
@@ -66,13 +64,12 @@ public class PropertyMasterScript : GameTilesMasterScript
 			{
 				
 				if (wantToBuy() == true) //If the player wants to buy it
-					if (playerMovingHere.GetComponent<PlayerMasterScript>().getBalance() >= price) //If the player has enough money to buy it
+					if (playerMovingHere.GetComponent<PlayerMasterScript>().getBalance() >= price) //If the player 1 has enough money to buy it
 					{
 						purchased = true;
 						GetComponent<P1Script>().setBalance(-(this.price));
 						GetComponent<P2Script>().setBalance(this.price);
-					}
-            			
+					}   			
 			}
             
 			else if (purchased == true)
@@ -88,13 +85,12 @@ public class PropertyMasterScript : GameTilesMasterScript
 			if (playerMovingHere.Equals(player1))
 			{
 				if (wantToBuy() == true) //If the player wants to buy it
-					if (playerMovingHere.GetComponent<PlayerMasterScript>().getBalance() >= price) //If the player has enough money to buy it
+					if (playerMovingHere.GetComponent<PlayerMasterScript>().getBalance() >= price) //If the player 2 has enough money to buy it
 					{
 						purchased = true;
 						GetComponent<P2Script>().setBalance(-(this.price));
 						GetComponent<P1Script>().setBalance(this.price);
 					}
-            			
 			}
             
 			else if (purchased == true)
@@ -107,8 +103,6 @@ public class PropertyMasterScript : GameTilesMasterScript
 		{
 			Debug.Log("It did not recognize which player landed on this space");
 		}
-		
-		
 	}
 
 
@@ -133,6 +127,4 @@ public int rent(int hotels)
 		}
 		return 0;
 	}
-
-	
 }

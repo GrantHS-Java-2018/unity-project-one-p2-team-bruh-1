@@ -27,7 +27,6 @@ public class FollowingPath : MonoBehaviour
 	{
 		if (moveAllowed)
 			Move();
-		
 	}
 	
 	
