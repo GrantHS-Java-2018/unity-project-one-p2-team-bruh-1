@@ -32,8 +32,7 @@ public class PropertyMasterScript : GameTilesMasterScript
 		}
 	}
 	
-
-
+	
 	void Update()
 	{
 		if (player1.GetComponent<FollowingPath>().waypointIndex == PlayerMasterScript.properties[player1.GetComponent<FollowingPath>().waypointIndex])
@@ -51,7 +50,7 @@ public class PropertyMasterScript : GameTilesMasterScript
 			}
 		}
 	}
-
+ 
 	public override void doThing(GameObject playerMovingHere)
 	{
 
@@ -87,7 +86,7 @@ public class PropertyMasterScript : GameTilesMasterScript
 						purchased = true;
 						GetComponent<P2Script>().setBalance(-(this.price));
 						GetComponent<P1Script>().setBalance(this.price);
-					}	
+					}
 			}
             
 			else if (purchased == true)
