@@ -3,7 +3,6 @@ using UnityEngine;
 
 public class Dice : MonoBehaviour {
 
-
     private Sprite[] diceSides;
     private SpriteRenderer rend;
     private int whosTurn = 1;
@@ -35,10 +34,10 @@ public class Dice : MonoBehaviour {
             rend.sprite = diceSides[randomDiceSide];
             yield return new WaitForSeconds(0.05f);
         }
-        finalSide = randomDiceSide + 2;
+        finalSide = randomDiceSide + 1;
         Debug.Log(finalSide);
 
-        _gameControl.diceSideThrown = randomDiceSide + 2;
+        _gameControl.diceSideThrown = randomDiceSide + 1;
         if (whosTurn == 1)
         {
             _gameControl.MovePlayer(1);
@@ -46,7 +45,6 @@ public class Dice : MonoBehaviour {
         {
             _gameControl.MovePlayer(2);
         }
-
         whosTurn *= -1;
         coroutineAllowed = true;
     }

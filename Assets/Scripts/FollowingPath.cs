@@ -29,10 +29,6 @@ public class FollowingPath : MonoBehaviour
 			Move();
 	}
 	
-	
-	
-	
-	
 	private void Move()
 	{	
 		if (waypointIndex <= waypoints.Length - 1)
