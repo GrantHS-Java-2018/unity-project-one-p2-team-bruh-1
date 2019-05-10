@@ -190,9 +190,18 @@ MonoBehaviour:
   m_GameObject: {fileID: 72363421}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3cdd8acb51a3b74439f7cf96444e4702, type: 3}
+  m_Script: {fileID: 11500000, guid: 8d92b751b1143ec42bf145f618c07909, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player1: {fileID: 714778385}
+  player2: {fileID: 1128270486}
+  price: 300
+  hotels: 0
+  purchased: 0
+  mortgaged: 0
+  monopoly: 0
+  hotelPrice: 0
+  rentArray: 1a0000008200000086010000840300004c040000fb040000
 --- !u!1 &84892414
 GameObject:
   m_ObjectHideFlags: 0
@@ -201,7 +210,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 84892415}
-  - component: {fileID: 84892416}
+  - component: {fileID: 84892417}
   m_Layer: 0
   m_Name: World 2_1
   m_TagString: Untagged
@@ -222,7 +231,7 @@ Transform:
   m_Father: {fileID: 1424580898}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &84892416
+--- !u!114 &84892417
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -230,9 +239,18 @@ MonoBehaviour:
   m_GameObject: {fileID: 84892414}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bbb0e77b20307bf4ca3b0c08ee0f0787, type: 3}
+  m_Script: {fileID: 11500000, guid: 8d92b751b1143ec42bf145f618c07909, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player1: {fileID: 714778385}
+  player2: {fileID: 1128270486}
+  price: 100
+  hotels: 0
+  purchased: 0
+  mortgaged: 0
+  monopoly: 0
+  hotelPrice: 0
+  rentArray: 060000001e0000005a0000000e0100009001000026020000
 --- !u!1 &157464266
 GameObject:
   m_ObjectHideFlags: 0
@@ -430,7 +448,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 205783831}
-  - component: {fileID: 205783832}
+  - component: {fileID: 205783833}
   m_Layer: 0
   m_Name: World 3_4
   m_TagString: Untagged
@@ -451,7 +469,7 @@ Transform:
   m_Father: {fileID: 1424580898}
   m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &205783832
+--- !u!114 &205783833
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -459,9 +477,18 @@ MonoBehaviour:
   m_GameObject: {fileID: 205783830}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 10da17d621726b347b3f4c003ca8fef2, type: 3}
+  m_Script: {fileID: 11500000, guid: 8d92b751b1143ec42bf145f618c07909, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player1: {fileID: 714778385}
+  player2: {fileID: 1128270486}
+  price: 160
+  hotels: 0
+  purchased: 0
+  mortgaged: 0
+  monopoly: 0
+  hotelPrice: 0
+  rentArray: 0c0000003c000000b4000000f4010000bc02000084030000
 --- !u!1 &270535799
 GameObject:
   m_ObjectHideFlags: 0
@@ -539,9 +566,18 @@ MonoBehaviour:
   m_GameObject: {fileID: 294386516}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5fcfc4af7c211024b8a36b7824885959, type: 3}
+  m_Script: {fileID: 11500000, guid: 8d92b751b1143ec42bf145f618c07909, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player1: {fileID: 714778385}
+  player2: {fileID: 1128270486}
+  price: 280
+  hotels: 0
+  purchased: 0
+  mortgaged: 0
+  monopoly: 0
+  hotelPrice: 0
+  rentArray: 1800000078000000680100005203000001040000b0040000
 --- !u!1 &335446988
 GameObject:
   m_ObjectHideFlags: 0
@@ -550,7 +586,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 335446989}
-  - component: {fileID: 335446990}
+  - component: {fileID: 335446991}
   m_Layer: 0
   m_Name: World 3_1
   m_TagString: Untagged
@@ -571,7 +607,7 @@ Transform:
   m_Father: {fileID: 1424580898}
   m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &335446990
+--- !u!114 &335446991
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -579,9 +615,18 @@ MonoBehaviour:
   m_GameObject: {fileID: 335446988}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ce8c52f02b3d831449298218f4d019cb, type: 3}
+  m_Script: {fileID: 11500000, guid: 8d92b751b1143ec42bf145f618c07909, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player1: {fileID: 714778385}
+  player2: {fileID: 1128270486}
+  price: 140
+  hotels: 0
+  purchased: 0
+  mortgaged: 0
+  monopoly: 0
+  hotelPrice: 0
+  rentArray: 0a0000003200000096000000c201000071020000ee020000
 --- !u!1 &387973910
 GameObject:
   m_ObjectHideFlags: 0
@@ -630,7 +675,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 432780636}
-  - component: {fileID: 432780637}
+  - component: {fileID: 432780638}
   m_Layer: 0
   m_Name: World 2_4
   m_TagString: Untagged
@@ -651,7 +696,7 @@ Transform:
   m_Father: {fileID: 1424580898}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &432780637
+--- !u!114 &432780638
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -659,9 +704,18 @@ MonoBehaviour:
   m_GameObject: {fileID: 432780635}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7562b4830114b6b4fb005f0bfcb5ecac, type: 3}
+  m_Script: {fileID: 11500000, guid: 8d92b751b1143ec42bf145f618c07909, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player1: {fileID: 714778385}
+  player2: {fileID: 1128270486}
+  price: 120
+  hotels: 0
+  purchased: 0
+  mortgaged: 0
+  monopoly: 0
+  hotelPrice: 0
+  rentArray: 0800000028000000640000002c010000c201000058020000
 --- !u!1 &470405719
 GameObject:
   m_ObjectHideFlags: 0
@@ -670,7 +724,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 470405720}
-  - component: {fileID: 470405721}
+  - component: {fileID: 470405722}
   m_Layer: 0
   m_Name: World 1_4
   m_TagString: Untagged
@@ -691,7 +745,7 @@ Transform:
   m_Father: {fileID: 1424580898}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &470405721
+--- !u!114 &470405722
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -699,9 +753,18 @@ MonoBehaviour:
   m_GameObject: {fileID: 470405719}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 70b4489c9c42c504d957da4d5fee1474, type: 3}
+  m_Script: {fileID: 11500000, guid: 8d92b751b1143ec42bf145f618c07909, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player1: {fileID: 714778385}
+  player2: {fileID: 1128270486}
+  price: 60
+  hotels: 0
+  purchased: 0
+  mortgaged: 0
+  monopoly: 0
+  hotelPrice: 0
+  rentArray: 04000000140000003c000000b400000040010000c2010000
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -1219,7 +1282,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 775611898}
-  - component: {fileID: 775611899}
+  - component: {fileID: 775611900}
   m_Layer: 0
   m_Name: World 2_2
   m_TagString: Untagged
@@ -1240,7 +1303,7 @@ Transform:
   m_Father: {fileID: 1424580898}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &775611899
+--- !u!114 &775611900
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1248,9 +1311,18 @@ MonoBehaviour:
   m_GameObject: {fileID: 775611897}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4837454da00bfe5479d572d598344709, type: 3}
+  m_Script: {fileID: 11500000, guid: 8d92b751b1143ec42bf145f618c07909, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player1: {fileID: 714778385}
+  player2: {fileID: 1128270486}
+  price: 100
+  hotels: 0
+  purchased: 0
+  mortgaged: 0
+  monopoly: 0
+  hotelPrice: 0
+  rentArray: 060000001e0000005a0000000e0100009001000026020000
 --- !u!1 &856508636
 GameObject:
   m_ObjectHideFlags: 0
@@ -1363,9 +1435,18 @@ MonoBehaviour:
   m_GameObject: {fileID: 857941352}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f2baf467779a02d4482bb9e90c07667c, type: 3}
+  m_Script: {fileID: 11500000, guid: 8d92b751b1143ec42bf145f618c07909, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player1: {fileID: 714778385}
+  player2: {fileID: 1128270486}
+  price: 400
+  hotels: 0
+  purchased: 0
+  mortgaged: 0
+  monopoly: 0
+  hotelPrice: 0
+  rentArray: 32000000c80000005802000078050000a4060000d0070000
 --- !u!1 &865980135
 GameObject:
   m_ObjectHideFlags: 0
@@ -1503,9 +1584,18 @@ MonoBehaviour:
   m_GameObject: {fileID: 956938228}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cfdaf65aaa1b9914c87273e347fd9532, type: 3}
+  m_Script: {fileID: 11500000, guid: 8d92b751b1143ec42bf145f618c07909, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player1: {fileID: 714778385}
+  player2: {fileID: 1128270486}
+  price: 300
+  hotels: 0
+  purchased: 0
+  mortgaged: 0
+  monopoly: 0
+  hotelPrice: 0
+  rentArray: 1a0000008200000086010000840300004c040000fb040000
 --- !u!1 &991056560
 GameObject:
   m_ObjectHideFlags: 0
@@ -1658,9 +1748,18 @@ MonoBehaviour:
   m_GameObject: {fileID: 1065511821}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 93036a24e43e0d745aae15235474f24f, type: 3}
+  m_Script: {fileID: 11500000, guid: 8d92b751b1143ec42bf145f618c07909, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player1: {fileID: 714778385}
+  player2: {fileID: 1128270486}
+  price: 240
+  hotels: 0
+  purchased: 0
+  mortgaged: 0
+  monopoly: 0
+  hotelPrice: 0
+  rentArray: 14000000640000002c010000ee0200009d0300004c040000
 --- !u!1 &1066302998
 GameObject:
   m_ObjectHideFlags: 0
@@ -1933,7 +2032,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1136293351}
-  - component: {fileID: 1136293352}
+  - component: {fileID: 1136293353}
   m_Layer: 0
   m_Name: World 4_3
   m_TagString: Untagged
@@ -1954,7 +2053,7 @@ Transform:
   m_Father: {fileID: 1424580898}
   m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1136293352
+--- !u!114 &1136293353
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1962,9 +2061,18 @@ MonoBehaviour:
   m_GameObject: {fileID: 1136293350}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 580f6000ee396654abdcdf023b7d03e5, type: 3}
+  m_Script: {fileID: 11500000, guid: 8d92b751b1143ec42bf145f618c07909, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player1: {fileID: 714778385}
+  player2: {fileID: 1128270486}
+  price: 180
+  hotels: 0
+  purchased: 0
+  mortgaged: 0
+  monopoly: 0
+  hotelPrice: 0
+  rentArray: 0e00000046000000c800000026020000ee020000b6030000
 --- !u!1 &1237185297
 GameObject:
   m_ObjectHideFlags: 0
@@ -2042,9 +2150,18 @@ MonoBehaviour:
   m_GameObject: {fileID: 1257310507}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c4953581bcab2b74595710fbdd1b1566, type: 3}
+  m_Script: {fileID: 11500000, guid: 8d92b751b1143ec42bf145f618c07909, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player1: {fileID: 714778385}
+  player2: {fileID: 1128270486}
+  price: 350
+  hotels: 0
+  purchased: 0
+  mortgaged: 0
+  monopoly: 0
+  hotelPrice: 0
+  rentArray: 23000000aa000000f40100004c04000014050000dc050000
 --- !u!1 &1307137418
 GameObject:
   m_ObjectHideFlags: 0
@@ -2184,7 +2301,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1383298041}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6f95c8f359eab74498f9b6de45293a57, type: 3}
+  m_Script: {fileID: 11500000, guid: 8d92b751b1143ec42bf145f618c07909, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   player1: {fileID: 714778385}
@@ -2194,7 +2311,8 @@ MonoBehaviour:
   purchased: 0
   mortgaged: 0
   monopoly: 0
-  rentArray: 0000000000000000000000000000000000000000
+  hotelPrice: 0
+  rentArray: 020000000a0000001e0000005a000000a0000000fa000000
 --- !u!1 &1424580897
 GameObject:
   m_ObjectHideFlags: 0
@@ -2300,9 +2418,18 @@ MonoBehaviour:
   m_GameObject: {fileID: 1526489631}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c4c5273cc8e92764ebe3fc00ec4ee569, type: 3}
+  m_Script: {fileID: 11500000, guid: 8d92b751b1143ec42bf145f618c07909, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player1: {fileID: 714778385}
+  player2: {fileID: 1128270486}
+  price: 220
+  hotels: 0
+  purchased: 0
+  mortgaged: 0
+  monopoly: 0
+  hotelPrice: 0
+  rentArray: 130000005a000000fa000000bc020000110300001a040000
 --- !u!1 &1589579183
 GameObject:
   m_ObjectHideFlags: 0
@@ -2340,9 +2467,18 @@ MonoBehaviour:
   m_GameObject: {fileID: 1589579183}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f97baa2f92d1eba439ccf57b6964be29, type: 3}
+  m_Script: {fileID: 11500000, guid: 8d92b751b1143ec42bf145f618c07909, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player1: {fileID: 714778385}
+  player2: {fileID: 1128270486}
+  price: 260
+  hotels: 0
+  purchased: 0
+  mortgaged: 0
+  monopoly: 0
+  hotelPrice: 0
+  rentArray: 160000006e0000004a01000020030000cf0300007e040000
 --- !u!1 &1608460163
 GameObject:
   m_ObjectHideFlags: 0
@@ -2351,7 +2487,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1608460164}
-  - component: {fileID: 1608460165}
+  - component: {fileID: 1608460166}
   m_Layer: 0
   m_Name: World 3_3
   m_TagString: Untagged
@@ -2372,7 +2508,7 @@ Transform:
   m_Father: {fileID: 1424580898}
   m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1608460165
+--- !u!114 &1608460166
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2380,9 +2516,18 @@ MonoBehaviour:
   m_GameObject: {fileID: 1608460163}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 37f2f474deae20d499dcfe9b10be0e5d, type: 3}
+  m_Script: {fileID: 11500000, guid: 8d92b751b1143ec42bf145f618c07909, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player1: {fileID: 714778385}
+  player2: {fileID: 1128270486}
+  price: 140
+  hotels: 0
+  purchased: 0
+  mortgaged: 0
+  monopoly: 0
+  hotelPrice: 0
+  rentArray: 0a0000003200000096000000c201000071020000ee020000
 --- !u!1 &1617997175
 GameObject:
   m_ObjectHideFlags: 0
@@ -2420,9 +2565,18 @@ MonoBehaviour:
   m_GameObject: {fileID: 1617997175}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dbd7a800326c4ad4b8f84a08c37fc973, type: 3}
+  m_Script: {fileID: 11500000, guid: 8d92b751b1143ec42bf145f618c07909, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player1: {fileID: 714778385}
+  player2: {fileID: 1128270486}
+  price: 260
+  hotels: 0
+  purchased: 0
+  mortgaged: 0
+  monopoly: 0
+  hotelPrice: 0
+  rentArray: 160000006e0000004a01000020030000cf0300007e040000
 --- !u!1 &1657268823
 GameObject:
   m_ObjectHideFlags: 0
@@ -2631,6 +2785,7 @@ MonoBehaviour:
   purchased: 0
   mortgaged: 0
   monopoly: 0
+  hotelPrice: 0
   rentArray: 0000000000000000000000000000000000000000
 --- !u!1 &1684694414
 GameObject:
@@ -2672,13 +2827,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 146e1d93a4aa0f04597f37e59cf27eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player1: {fileID: 0}
-  player2: {fileID: 0}
+  player1: {fileID: 714778385}
+  player2: {fileID: 1128270486}
   price: 150
   hotels: 0
   purchased: 0
   mortgaged: 0
   monopoly: 0
+  hotelPrice: 0
   rentArray: 0000000000000000
 --- !u!1 &1691429043
 GameObject:
@@ -2800,13 +2956,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f804874feee05d845acd4724f3df2feb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player1: {fileID: 0}
-  player2: {fileID: 0}
+  player1: {fileID: 714778385}
+  player2: {fileID: 1128270486}
   price: 150
   hotels: 0
   purchased: 0
   mortgaged: 0
   monopoly: 0
+  hotelPrice: 0
   rentArray: 0000000000000000000000000000000000000000
 --- !u!1 &1817913032
 GameObject:
@@ -2816,7 +2973,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1817913033}
-  - component: {fileID: 1817913034}
+  - component: {fileID: 1817913035}
   m_Layer: 0
   m_Name: World 5_1
   m_TagString: Untagged
@@ -2837,7 +2994,7 @@ Transform:
   m_Father: {fileID: 1424580898}
   m_RootOrder: 21
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1817913034
+--- !u!114 &1817913035
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2845,9 +3002,18 @@ MonoBehaviour:
   m_GameObject: {fileID: 1817913032}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3c982d8b1c998be4fa3d4de5fd069ce5, type: 3}
+  m_Script: {fileID: 11500000, guid: 8d92b751b1143ec42bf145f618c07909, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player1: {fileID: 714778385}
+  player2: {fileID: 1128270486}
+  price: 220
+  hotels: 0
+  purchased: 0
+  mortgaged: 0
+  monopoly: 0
+  hotelPrice: 0
+  rentArray: 130000005a000000fa000000bc020000110300001a040000
 --- !u!1 &1951687818
 GameObject:
   m_ObjectHideFlags: 0
@@ -3016,7 +3182,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2037574049}
-  - component: {fileID: 2037574050}
+  - component: {fileID: 2037574051}
   m_Layer: 0
   m_Name: World 4_1
   m_TagString: Untagged
@@ -3037,7 +3203,7 @@ Transform:
   m_Father: {fileID: 1424580898}
   m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2037574050
+--- !u!114 &2037574051
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3045,9 +3211,18 @@ MonoBehaviour:
   m_GameObject: {fileID: 2037574048}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 50bf0cd3a13c30a4f9c19a25c8c0299c, type: 3}
+  m_Script: {fileID: 11500000, guid: 8d92b751b1143ec42bf145f618c07909, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player1: {fileID: 714778385}
+  player2: {fileID: 1128270486}
+  price: 180
+  hotels: 0
+  purchased: 0
+  mortgaged: 0
+  monopoly: 0
+  hotelPrice: 0
+  rentArray: 0e00000046000000c800000026020000ee020000b6030000
 --- !u!1 &2046593117
 GameObject:
   m_ObjectHideFlags: 0
@@ -3056,7 +3231,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2046593118}
-  - component: {fileID: 2046593119}
+  - component: {fileID: 2046593120}
   m_Layer: 0
   m_Name: World 4_4
   m_TagString: Untagged
@@ -3077,7 +3252,7 @@ Transform:
   m_Father: {fileID: 1424580898}
   m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2046593119
+--- !u!114 &2046593120
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3085,9 +3260,18 @@ MonoBehaviour:
   m_GameObject: {fileID: 2046593117}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ac3e7f695bcbe8144b578f672b6601bb, type: 3}
+  m_Script: {fileID: 11500000, guid: 8d92b751b1143ec42bf145f618c07909, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player1: {fileID: 714778385}
+  player2: {fileID: 1128270486}
+  price: 200
+  hotels: 0
+  purchased: 0
+  mortgaged: 0
+  monopoly: 0
+  hotelPrice: 0
+  rentArray: 1000000050000000dc0000005802000020030000e8030000
 --- !u!1 &2050085292
 GameObject:
   m_ObjectHideFlags: 0
@@ -3211,6 +3395,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 2132912991}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6d9725bb3823d9446a5ab29cf0daa61f, type: 3}
+  m_Script: {fileID: 11500000, guid: 8d92b751b1143ec42bf145f618c07909, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player1: {fileID: 714778385}
+  player2: {fileID: 1128270486}
+  price: 320
+  hotels: 0
+  purchased: 0
+  mortgaged: 0
+  monopoly: 0
+  hotelPrice: 0
+  rentArray: 1c00000096000000c2010000e8030000b004000078050000
