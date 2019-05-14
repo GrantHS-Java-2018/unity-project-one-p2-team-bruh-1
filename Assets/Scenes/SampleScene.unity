@@ -991,6 +991,7 @@ GameObject:
   - component: {fileID: 714778386}
   - component: {fileID: 714778388}
   - component: {fileID: 714778389}
+  - component: {fileID: 714778390}
   m_Layer: 0
   m_Name: Player 1
   m_TagString: Untagged
@@ -1124,6 +1125,18 @@ MonoBehaviour:
   waypointIndex: 0
   moveAllowed: 0
   activePlayer: {fileID: 0}
+--- !u!114 &714778390
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 714778385}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8461d674bc5516e4896684183f8663f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  balance: 1500
 --- !u!1 &752877510
 GameObject:
   m_ObjectHideFlags: 0
@@ -1891,6 +1904,7 @@ GameObject:
   - component: {fileID: 1128270487}
   - component: {fileID: 1128270489}
   - component: {fileID: 1128270490}
+  - component: {fileID: 1128270491}
   m_Layer: 0
   m_Name: Player 2
   m_TagString: Untagged
@@ -2024,6 +2038,18 @@ MonoBehaviour:
   waypointIndex: 0
   moveAllowed: 0
   activePlayer: {fileID: 0}
+--- !u!114 &1128270491
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1128270486}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8461d674bc5516e4896684183f8663f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  balance: 1500
 --- !u!1 &1136293350
 GameObject:
   m_ObjectHideFlags: 0
@@ -3315,8 +3341,8 @@ MonoBehaviour:
   player1: {fileID: 714778385}
   player2: {fileID: 1128270486}
   diceSideThrown: 0
-  player1StartWaypoint: 0
-  player2StartWaypoint: 0
+  player1StartWaypoint: 1
+  player2StartWaypoint: 1
   gameOver: 0
 --- !u!1 &2089340570
 GameObject:

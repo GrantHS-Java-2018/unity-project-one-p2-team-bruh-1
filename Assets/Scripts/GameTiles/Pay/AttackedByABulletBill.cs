@@ -13,6 +13,5 @@ public class AttackedByABulletBill : GameTilesMasterScript {
 		{
 			GetComponent<P2Script>().setBalance(-100);
 		}	
-		
 	}
 }

@@ -67,6 +67,7 @@ public class GameControl : MonoBehaviour
 			player2.GetComponent<FollowingPath>().waypointIndex %= 40;
 		}
 
+        
 		if (player1.GetComponent<PlayerMasterScript>().getBalance() <= 0)
 		{
 			whoWinsText.gameObject.SetActive(true);

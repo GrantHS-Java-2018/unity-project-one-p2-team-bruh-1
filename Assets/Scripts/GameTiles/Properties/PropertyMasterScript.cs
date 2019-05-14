@@ -81,7 +81,7 @@ public class PropertyMasterScript : GameTilesMasterScript
 		else if (playerMovingHere.Equals(player2))
 		{
 			
-			playerMovingHere.GetComponent<PlayerMasterScript>().setBalance(-(rentArray[hotels]));
+			//playerMovingHere.GetComponent<PlayerMasterScript>().setBalance(-(rentArray[hotels]));
 			if (playerMovingHere.Equals(player1))
 			{
 				if (wantToBuy() == true) //If the player wants to buy it
