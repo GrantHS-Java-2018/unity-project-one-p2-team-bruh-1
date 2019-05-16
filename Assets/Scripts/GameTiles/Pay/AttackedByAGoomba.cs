@@ -12,7 +12,7 @@ public class AttackedByAGoomba : GameTilesMasterScript {
 		else
 		{
 			GetComponent<P2Script>().setBalance(-200);
-		}	
+		}
 		
 	}
 }
