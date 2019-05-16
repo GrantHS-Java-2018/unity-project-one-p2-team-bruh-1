@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEditor.PackageManager;
 using UnityEngine;
 using UnityEngine.Networking.NetworkSystem;
-
+using UnityEngine.UI;
 public class World1_1 : PropertyMasterScript
 {
 	public World1_1()
@@ -22,7 +22,7 @@ public class World1_1 : PropertyMasterScript
 		{
 			if (purchased == false) //If it's purchased
             		{
-            			if (GetComponent<Button>().answer == true) //If the player wants to buy it
+            			//if (GetComponent<Button>().answer == true) //If the player wants to buy it
             				if (playerMovingHere.GetComponent<PlayerMasterScript>().getBalance() >= price) //If the player has enough money to buy it
             				{
             					purchased = true;
@@ -42,7 +42,7 @@ public class World1_1 : PropertyMasterScript
 		{
 			if (purchased == false) //If it's purchased
 			{
-				if (GetComponent<Button>().answer == true) //If the player wants to buy it
+				//if (GetComponent<Button>().answer == true) //If the player wants to buy it
 					if (playerMovingHere.GetComponent<PlayerMasterScript>().getBalance() >= price) //If the player has enough money to buy it
 					{
 						purchased = true;
