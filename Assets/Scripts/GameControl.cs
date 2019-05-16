@@ -57,6 +57,7 @@ public class GameControl : MonoBehaviour
             player1MoveText.gameObject.SetActive(true);
             player2StartWaypoint = player2.GetComponent<FollowingPath>().waypointIndex;
         }
+          
 
         if (player1.GetComponent<FollowingPath>().waypointIndex > player1.GetComponent<FollowingPath>().waypoints.Length-1)
 		{

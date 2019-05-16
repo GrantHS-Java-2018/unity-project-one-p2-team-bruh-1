@@ -1,11 +1,26 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PlayerMasterScript : MonoBehaviour
 {
 
 	public int balance;
+
+	void Start()
+	{
+		Player1Balance = GameObject.Find("Player1Balance");
+		Player2Balance = GameObject.Find("Player2Balance");
+	}	
+	void Update()
+	{
+		Player1Balance.GetComponent<Text>().text = "P1 bal:" + balance.ToString();
+		Player2Balance.GetComponent<Text>().text = "P2 bal:" + balance.ToString();
+		
+		Player1Balance.gameObject.SetActive(true);
+		Player1Balance.gameObject.SetActive(true);
+	}
 
 	public void setBalance(int value)
 	{
@@ -16,9 +31,10 @@ public class PlayerMasterScript : MonoBehaviour
 	{
 		return balance;
 	}
+
+	private static GameObject Player1Balance, Player2Balance;
 	
 	public static int[] tiles = new int[40];
-	
 
 	public static int[] properties = new int[28];
 	 /*
@@ -56,6 +72,7 @@ public class PlayerMasterScript : MonoBehaviour
 	{
 		properties[property] = 1;
 	}
+
 
 	
 }
