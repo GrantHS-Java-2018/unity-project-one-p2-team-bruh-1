@@ -15,8 +15,8 @@ public class PlayerMasterScript : MonoBehaviour
 	}	
 	void Update()
 	{
-		Player1Balance.GetComponent<Text>().text = "P1 bal:" + balance.ToString();
-		Player2Balance.GetComponent<Text>().text = "P2 bal:" + balance.ToString();
+		Player1Balance.GetComponent<Text>().text = balance.ToString();
+		Player2Balance.GetComponent<Text>().text = balance.ToString();
 		
 		Player1Balance.gameObject.SetActive(true);
 		Player1Balance.gameObject.SetActive(true);
