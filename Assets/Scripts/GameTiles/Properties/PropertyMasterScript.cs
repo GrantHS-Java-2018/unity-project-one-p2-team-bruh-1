@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Experimental.UIElements;
 using UnityEngine.SceneManagement;
+using Button = UnityEngine.UI.Button;
 
 public class PropertyMasterScript : GameTilesMasterScript
 {
@@ -18,22 +19,23 @@ public class PropertyMasterScript : GameTilesMasterScript
 	
 	public int hotelPrice;
 	public int[] rentArray = new int[6];
+	
 	//Rent is doubled if (monopoly == true && hotels=0)
 	//Mortgaged amount is just price/2
 
 	public bool wantToBuy()
 	{
-		/*SceneManager.LoadScene("BuyProperty", LoadSceneMode.Additive);
-		if(GetComponent<Button>().answer == true)
+		SceneManager.LoadScene("BuyProperty");
+  		if(GetComponent<BuyPropertyAnswer>().getAnswer() == true)
 		{
 			return true;
 		}
 		else
 		{
-			SceneManager.LoadScene("Sample Scene", LoadSceneMode.Single);
+			SceneManager.LoadScene("Sample Scene");
 			return false;
-		}*/
-		return false;
+		}
+		
 	}
 	
 	
@@ -67,8 +69,10 @@ public class PropertyMasterScript : GameTilesMasterScript
 					if (playerMovingHere.GetComponent<PlayerMasterScript>().getBalance() >= price) //If the player 1 has enough money to buy it
 					{
 						purchased = true;
-						GetComponent<P1Script>().setBalance(-(this.price));
-						GetComponent<P2Script>().setBalance(this.price);
+
+						player1.GetComponent<PlayerMasterScript>().balance -= price;
+						//player1.GetComponent<P1Script>().setBalance(-(this.price));
+						//player2.GetComponent<P2Script>().setBalance(this.price);
 					}   			
 			}
             
@@ -95,8 +99,10 @@ public class PropertyMasterScript : GameTilesMasterScript
             
 			else if (purchased == true)
 			{
-				GetComponent<P2Script>().setBalance(-(rentArray[hotels]));
-				GetComponent<P1Script>().setBalance(rentArray[hotels]);
+				
+				
+				//GetComponent<P2Script>().setBalance(-(rentArray[hotels]));
+				//GetComponent<P1Script>().setBalance(rentArray[hotels]);
 			}
 		}
 		else
