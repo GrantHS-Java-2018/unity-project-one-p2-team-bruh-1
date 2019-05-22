@@ -25,14 +25,22 @@ public class PropertyMasterScript : GameTilesMasterScript
 
 	public bool wantToBuy()
 	{
-		SceneManager.LoadScene("BuyProperty");
-  		if(GetComponent<BuyPropertyAnswer>().getAnswer() == true)
+
+		if (SceneManager.GetActiveScene().buildIndex != 1)
+		{
+			//SceneManager.LoadScene("BuyProperty");
+		}
+		
+  		if(/*GetComponent<BuyPropertyAnswer>().getAnswer()*/false == true)
 		{
 			return true;
 		}
 		else
 		{
-			SceneManager.LoadScene("Sample Scene");
+			if (SceneManager.GetActiveScene().buildIndex != 0)
+			{
+				SceneManager.LoadScene("SampleScene");
+			}
 			return false;
 		}
 		
@@ -101,8 +109,8 @@ public class PropertyMasterScript : GameTilesMasterScript
 			{
 				
 				
-				//GetComponent<P2Script>().setBalance(-(rentArray[hotels]));
-				//GetComponent<P1Script>().setBalance(rentArray[hotels]);
+				GetComponent<P2Script>().setBalance(-(rentArray[hotels]));
+				GetComponent<P1Script>().setBalance(rentArray[hotels]);
 			}
 		}
 		else

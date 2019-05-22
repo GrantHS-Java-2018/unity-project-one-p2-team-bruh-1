@@ -19,7 +19,7 @@ public class BuyPropertyAnswer : MonoBehaviour
 	public void wantToBuy()
 	{
 		answer = true;
-	}`
+	}
 
 	public void noBuy()
 	{
